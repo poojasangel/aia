@@ -1,0 +1,225 @@
+<div class="content" id="{{getCurrentPage().id}}_page">
+    <div class="level_dest">Destination: {{levels[currentLevel - 1]['destination']}}</div>
+    <div class="life_cont">
+        <span>{{levels[currentLevel - 1]['life_rem']}}</span>
+        <ul class="lifes">
+            <li ng-repeat="i in getTimes(levels[currentLevel - 1]['life'])" ng-class="{noLife: i >= levels[currentLevel - 1]['life_rem']}">
+            </li>
+        </ul>
+    </div>
+    <div class="race_time">{{timer| timeformat}}</div>
+    <div class="passcode"><ul>
+            <li ng-repeat="data in passcode track by $index" >
+                <span class="p_show">{{data}}</span>
+                <span class="p_hide">*</span>
+            </li>
+        </ul></div>
+    <div class="animation">
+        <animate src="animations/mission1.js" id="mission1" contid="mission1" width="1014" height="650" autoplay="false" />
+    </div>
+    <div class="modal" tabindex="-1" role="dialog" id="questionModal" data-backdrop="false">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+
+
+                <!--                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    X
+                                </button>-->
+
+                <div class="modal-body" style='position: absolute;'>
+                    <quiz>
+
+                    </quiz>
+                    <ul class="hints">
+                        <li><button id="btn_hint1" ng-click="hint1($event)" ng-class="{'disabled': !isHint1Av}">50-50</button></li>
+                        <li><button id="btn_hint2" ng-click="hint2($event)" ng-class="{'disabled': !isHint2Av}">Phone a friend</button></li>
+                    </ul>
+
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="modal" tabindex="-1" role="dialog" id="passcodeModal" data-backdrop="false">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+
+
+                <!--                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    X
+                                </button>-->
+
+                <div class="modal-body" style='width: 100%'>
+                    <div id='calc-contain'>
+
+                        <form name="calculator" style="width: 100%;height: 100%;padding: 197px 30px;position:relative;">
+                            <input type="text" name="answer" />
+                            <span class="blink" style="position: absolute;color: #fff;right: 45px;font-size: 30px;font-family: RusSq;top: 200px;">_</span>
+                            <input type="button" value=" 1 " onclick="calculator.answer.value += '1';
+                                    tiggerInputChange();" />
+                            <input type="button" value=" 2 " onclick="calculator.answer.value += '2';
+                                    tiggerInputChange();" />
+                            <input type="button" value=" 3 " onclick="calculator.answer.value += '3';
+                                    tiggerInputChange();" />
+
+
+                            <input type="button" value=" 4 " onclick="calculator.answer.value += '4';
+                                    tiggerInputChange();" />
+                            <input type="button" value=" 5 " onclick="calculator.answer.value += '5';
+                                    tiggerInputChange();" />
+                            <input type="button" value=" 6 " onclick="calculator.answer.value += '6';
+                                    tiggerInputChange();" />
+
+                            <input type="button" value=" 7 " onclick="calculator.answer.value += '7';
+                                    tiggerInputChange();" />
+                            <input type="button" value=" 8 " onclick="calculator.answer.value += '8';
+                                    tiggerInputChange();" />
+                            <input type="button" value=" 9 " onclick="calculator.answer.value += '9';
+                                    tiggerInputChange();" />
+
+                            <input type="button" value=" 0 " onclick="calculator.answer.value += '0';
+                                    tiggerInputChange();" />
+                            <input type="button" value="" onclick="calculator.answer.value=calculator.answer.value.slice(0,-1);
+                                    tiggerInputChange();" />
+                            <input type="button" value=" = " ng-click= "passcodeEnter($event)" />
+
+                        </form>
+
+                    </div>
+
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="modal" tabindex="-1" role="dialog" id="levelOverModal" data-backdrop="false">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+
+
+                <!--                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    X
+                                </button>-->
+
+                <div class="modal-body" style='width: 100%'>
+                    <div><div class="cd1">Mission cleared!</div><div class="cd2">Excellent</div><button class="btn_continue" ng-click="showScore()"></button></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal" tabindex="-1" role="dialog" id="failModal" data-backdrop="false">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+
+
+                <!--                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    X
+                                </button>-->
+
+                <div class="modal-body" >
+                    <div><div class="cd1">Mission failed!</div><div class="cd2">{{failmsg}}</div><button class="btn_retry" ng-click="replayLevel()"></button></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal" tabindex="-1" role="dialog" id="scoreModal" data-backdrop="false">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content modallevel{{currentLevel}}">
+
+
+                <!--                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    X
+                                </button>-->
+
+                <div class="modal-body" >
+                    <div>
+                       <div class="modal-body">
+                           <div class="levelName">Level {{currentLevel}} Performance<br/>{{levels[currentLevel - 1]['name']}}</div>
+                    <div class="right"></div>
+                    <div class="left" >
+                        <div style="display: table;
+width: 100%;
+position: relative;
+margin-top:120px;">
+                            <div style="display: table-row;">
+                                <div style="display: table-cell;padding-bottom: 5px;">Travel score</div><div style="display: table-cell;padding-bottom: 5px;">:{{score[currentLevel-1]['race']}} Points</div>
+                            </div>
+                            <div style="display: table-row;">
+                                 <div style="display: table-cell;padding-bottom: 5px;">Scenario solved</div><div style="display: table-cell;padding-bottom: 5px;">:{{score[currentLevel-1]['scenario']}} Points</div>
+                            </div>
+                            <div style="display: table-row;">
+                                 <div style="display: table-cell;padding-bottom: 5px;">Time bonus</div><div style="display: table-cell;padding-bottom: 5px;">:{{score[currentLevel-1]['time_bonus']}} Points</div>
+                            </div>
+                            <div style="display: table-row;">
+                                 <div style="display: table-cell;padding-bottom: 30px;">Life bonus</div><div style="display: table-cell;padding-bottom: 30px;">:{{score[currentLevel-1]['life_bonus']}} Points</div>
+                            </div>
+                            <div style="display: table-row;">
+                                 <div style="display: table-cell;padding-bottom: 5px;border-bottom: 2px dashed;">Previous level scores(cumulative)</div><div style="display: table-cell;border-bottom: 2px dashed;padding-bottom: 5px;">:{{total}} Points</div>
+                            </div>
+                            <div style="display: table-row;">
+                                 <div style="display: table-cell;padding-top: 6px;">TOTAL SCORE</div><div style="display: table-cell;padding-top: 6px;">:{{total+cTotal}} Points</div>
+                            </div>
+                        </div>
+                        
+                        
+                    </div>
+                    <button id="btn_continue" ng-click="path('progress')"></button>
+                </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+	 <div class="helpModal">
+        <div class="help_cont">
+            <div  style="font-family: AgencyFb; font-size: 24px;
+
+text-transform: uppercase;
+
+text-shadow: 1px 0px 2px #fff , 1px 0px 10px #fff;
+
+text-align: center;
+
+padding: 18px 0;">How to play</div>
+
+            <div id='help1' style="width: 65%;
+
+margin: auto;
+
+padding-top: 46px;
+
+margin-bottom: 108px;
+
+display: block;
+
+font-size: 18px; display:block;"><div>Provide your responses to the questions posed by the system so that you can retrieve the data successfully! Use the two hint supports if required!<br><br>Do not get detected and finish the task on time! </div>
+<button ng-click="helpNext()" id="btn_next" ></button>  
+</div>
+           
+         <div id ='help2' style="width: 80%;
+
+margin: auto;
+
+padding-top: 20px;margin-bottom: 30px; background: url(images/mission_howtoplay_ICONs.png) no-repeat; background-position-y: 30px;
+height: 318px; display:none;"> 
+<div style="width: 80%;
+padding-top: 2px;">Controls: Use simple mouse clicks on interactive and non-interactive items. </div>
+<div style="padding-top: 20px;">Be Aware of:</div>
+<div style="margin-top: 17px;
+margin-left: 86px;">Cameras - don't get into their vision!</div>
+<div style="margin-top: 15px;margin-left: 76px;">Guards - If they see you, you die! </div>
+<div style="margin-left: 30px;margin-top: 16px;width: 72%;">Laser beams - You will turn into ashes if you touch them!</div>
+<div style="width: 73%;margin-top: 20px;margin-left: 49px;">G7 FRT - The auto mounted turret gun will shoot you if you get detected!</div>
+<div style="margin-top: 13px;">Get the job done, and you get promoted with a trophy! Good luck Code 57.</div>
+<button ng-click="helpBack()" id="btn_back" ></button>  
+</div>
+             
+            <button ng-click="startRace()" id="btn_start"></button>
+            </div>
+    </div>
+
+</div>
+

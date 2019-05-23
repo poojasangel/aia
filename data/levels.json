@@ -1,0 +1,39 @@
+[
+    {
+        "destination": "Hong Kong",
+        "name": "Project hot-sauce",
+        "life": 4,
+        "life_rem": 4,
+        "mission_location": "Research Lab",
+        "passcode": 32019,
+        "brief":"<p>Sensei Daichi has confirmed that Cyber-Dog&rsquo;s top-secret operations in Hong Kong are being carried out in Hong Kong&rsquo;s central business district, right under the nose of the police! What cheek!</p><p>You need to go to the business district fast. Dr. Droid has spies everywhere and might have heard news that you will be coming. He might set up extra security to foil your plan.</p>",
+        "status":0
+    }, {
+        "destination": "Bangkok",
+        "name": "The eagle-view data",
+        "life": 4,
+        "life_rem": 4,
+        "mission_location": "Research Lab",
+        "passcode": 22518,
+        "brief":"<p>Cyber-Dog operations in Bangkok are almost always near the sea. Use a boat to reach there quickly and under no circumstances should they learn about i-Ninjas. Be extremely careful!</p>",        
+        "status":0
+    }, {
+        "destination": "Jakarta",
+        "name": "Cryptomacy",
+        "life": 4,
+        "life_rem": 4,
+        "mission_location": "Research Lab",
+        "brief":"<p>Reaching Cyber-Dog&rsquo;s headquarters will be a test of your navigation skills. All the best!",        
+        "passcode": 87502,
+        "status": 0
+    }, {
+        "destination": "Sydney",
+        "name": "Wildcat-Paw",
+        "life": 4,
+        "life_rem": 4,
+        "mission_location": "Research Lab",
+        "brief":"This is the last level. The success of our mission lies in the success of this level. All the best! ",        
+        "passcode": 49172,
+        "status": 0
+    }
+]

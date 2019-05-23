@@ -1,0 +1,109 @@
+[
+	
+	{
+		"name": "audio/BG_Music2.mp3",
+		"id" : "map_bg",
+		"loop" : true,
+		"muted": false,
+        "volume":0.5
+	},
+	{
+		"name": "audio/popup_open.mp3",
+		"id" : "map_popup",
+		"loop" : false,
+		"muted": false,
+        "volume":1
+	},
+	{
+		"name": "audio/Loop_FastPaced.mp3",
+		"id" : "race_bg",
+		"loop" : true,
+		"muted": false,
+        "volume":0.2
+	},
+	{
+		"name": "audio/Bike_01.mp3",
+		"id" : "bike",
+		"loop" : true,
+		"muted": false,
+        "volume":1
+	},
+	{
+	
+		"name": "audio/Car_Crash.mp3",
+		"id" : "car_crash",
+		"loop" : false,
+		"muted": false,
+        "volume":1
+	},
+	{
+		"name": "audio/Car_03.mp3",
+		"id" : "car1",
+		"loop" : true,
+		"muted": false,
+        "volume":1
+	},
+	{
+		"name": "audio/Boat.mp3",
+		"id" : "boat",
+		"loop" : true,
+		"muted": false,
+        "volume":1
+	},
+	{
+		"name": "audio/Boat_Crash.mp3",
+		"id" : "boat_crash",
+		"loop" : false,
+		"muted": false,
+        "volume":1
+	},
+	{
+		"name": "audio/Plane_01.mp3",
+		"id" : "plane",
+		"loop" : false,
+		"muted": false,
+        "volume":1
+	},
+	{
+		"name": "audio/Level_Win.mp3",
+		"id" : "mission_win",
+		"loop" : false,
+		"muted": false,
+        "volume":1
+	},
+	{
+		"name": "audio/Mission_Failed.mp3",
+		"id" : "mission_fail",
+		"loop" : false,
+		"muted": false,
+        "volume":1
+	},
+	{
+		"name": "audio/Spy_Music_loop.mp3",
+		"id" : "spy_bg",
+		"loop" : true,
+		"muted": false,
+        "volume":0.5
+	},
+	{
+		"name": "audio/Positive_Beep.mp3",
+		"id" : "correct_answer",
+		"loop" : false,
+		"muted": false,
+        "volume":1
+	},
+	{
+		"name": "audio/incorrect_answer.mp3",
+		"id" : "incorrect_answer",
+		"loop" : false,
+		"muted": false,
+        "volume":1
+	},
+	{
+		"name": "audio/Beep_PressingNumbers.mp3",
+		"id" : "keypad",
+		"loop" : false,
+		"muted": false,
+        "volume":1
+	}
+]

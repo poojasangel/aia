@@ -1,0 +1,30 @@
+<div class="content" id="{{getCurrentPage().id}}_page">
+   <div class="main-bg">
+       <div class="wrapper">
+           <div class="header-text">Mission Accomplished</div>
+           <div class="left-panel">
+               <div class="icon icon-1" ng-if="total > 1188"></div>
+               <div class="icon icon-2" ng-if="total <= 1188 && total > 1056"></div>
+               <div class="icon icon-3" ng-if="total <= 1056"></div>
+           </div>
+           <div class="right-panel">
+               <div class="comments">You have foiled Droid's plans successfully. The world is safe again. </div>
+               <div class="score-cont">
+                   <div class="score-text">{{total}}</div>
+               </div>
+               <div class="certificate-cont" ng-click="showCertificate()"></div>
+			  <button class="btn_retry" ng-click="replayGame()"></button>
+           </div>
+       </div>
+   </div>
+   <div class='certi-container'>
+		<img src='images/score/scr_Certificate_01.png' width='1014px' height='650px'/>
+	   <div class="certificate-bg">
+			<div class='username-txt'>{{Learnername}}</div>
+			<div class='date-txt'>{{today}}</div>
+	   </div>
+   </div>
+   <div class='certificte-close' ng-click="closeCertificate()"></div>
+   <div class='certificte-print' ng-click="printCertificate()"></div>
+</div>
+

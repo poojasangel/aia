@@ -1,0 +1,420 @@
+{
+    "1_1":
+            {
+                "question": "Ryan, a Branch Manager, often follows new trends and incorporates it in his way of working. He actively provides feedback to his team and ensures that they update their knowledge and skills regularly. Which of the following is this an example of? ",
+                "options": [
+                    "Learn",
+                    "Unlearn",
+                    "Relearn"
+                ],
+                "answer": 0,
+                "poll":[90,5,5],
+                "topic_name":"Learn, Unlearn, Relearn"
+            },
+    "1_2":
+            {
+                "question": "Rahul is a Relationship Manager working in John's team. Though relatively new in the team, Rahul suggests a new way for documenting client information which will help in their meetings. What should John do?",
+                "options": [
+                    "Ignore Rahul's suggestion as he is rather new in the organization. ",
+                    "Consider Rahul's recommendation and see how he can incorporate it within the existing process.",
+                    "Compliment Rahul for the suggestion, but inform him that he would rather use the existing process as it is tried and tested. ",
+                    "Thank Rahul for the suggestion, and say he will think about it. "
+                ],
+                "answer": 1,
+                "poll":[10,78,2,10],
+                "topic_name":"Learn, Unlearn, Relearn"
+            },
+    "1_3":
+            {
+                "question": "Which of the following statement relating to Learn, Unlearn and Relearn is true?",
+                "options": [
+                    "Learning involves letting go of old and traditional mindset to make space for new ideas. ",
+                    "Learning agility helps in blocking your ability to adjust in an uncertain and constantly evolving environment. ",
+                    "The Learn, Unlearn, and Relearn methodology helps in adapting to a changing environment. "
+                ],
+                "answer": 2,
+                "poll":[0,15,85],
+                "topic_name":"Learn, Unlearn, Relearn"
+            },
+    "1_4":
+            {
+                "question": "Lee is a Relationship Manager in Senior Manager Chen's team. Chen notices that Lee's sales targets have dropped since the last few months and realises that he has not been meeting most clients earmarked for him. Chen would like to use Personal Motivation and Personal Ability to ensure that Lee shows improvement in his performance. He decides to facilitate deliberate practice so that Lee tries harder to improve. What else should Chen do?",
+                "options": [
+                    "Talk to Lee to find out why he is not meeting all of his clients and what support he needs. ",
+                    "Talk to Lee and sternly warn him that such poor performance is unacceptable. ",
+                    "Increase the complexity of Lee's tasks so that he can push himself harder. "                    
+                ],
+                "answer": 0,
+                "poll":[88,2,10],
+                "topic_name":"Influencer Model"
+            },
+    "1_5":
+            {
+                "question": "Lawan, a Senior Manager, has started an app-based support group that updates all her team members on the current trends in sales, reporting and customer management. What source of influence is Lawan applying in this case?",
+                "options": [
+                    "Source 5: Structural Motivation",
+                    "Source 6: Structural Ability",
+                    "Source 4: Social Ability ",
+                    "Source 3: Social Motivation "
+                ],
+                "answer": 2,
+                "poll":[0,30,70,0],
+                "topic_name":"Influencer Model"
+            },
+    "1_6":
+            {
+                "question": "Darryl is a Manager with a team of seven Relationship Managers and three Insurance Specialists. As most of his team travels to meet clients, he uses chats and video conferencing tools to connect them to each other and other colleagues for guidance and support. Why should Darryl employ Source 6: Structural Ability to influence his team?",
+                "options": [
+                    "To include most current strategies which will impress his team members. ",
+                    "To create a positive environment to facilitate communication within his team and avoid any barriers in sharing information.  ",
+                    "To ensure that all of his team are on their toes and outperforming themselves. "
+                ],
+                "answer": 1,
+                "poll":[4,96,0],
+                "topic_name":"Influencer Model"
+            },
+    "2_1":
+            {
+                "question": "Kate is one of your most decisive team members. She loves challenges and works best with minimal supervision. Extremely competitive, Kate ensures that she meets her targets every quarter. How would you classify Kate's personality type? ",
+                "options": [
+                    "Amiable",
+                    "Driver",
+                    "Analytical",
+                    "Expressor"
+                ],
+                "answer": 1,
+                "poll":[3,92,0,5],
+                "topic_name":"Communication styles"
+            },
+    "2_2":
+            {
+                "question": "Haroon loves challenges involving critical thinking and is detail-oriented to the core. Meticulous and hardworking, he maintains high standards in anything that he works on. Which of the following strategies will you use to motivate Haroon?",
+                "options": [
+                    "Encourage him to take decisions on the spot.",
+                    "Provide detailed guidelines on the tasks, policies, and job descriptions. ",
+                    "Make Haroon a team leader. "
+                ],
+                "answer": 1,
+                "poll":[8,90,2],
+                "topic_name":"Communication styles"
+            },
+    "2_3":
+            {
+                "question": "Amelia is conducting a joint field work session with her team member, Chang. Chang proposes a wealth management solution, to which the client raises a &ldquo;price too high&rdquo; objection. Chang manages to use the LADR methodology to overcome this objection and assures the client of the merits of his solution. What feedback model should Amelia use to provide feedback for this situation?",
+                "options": [
+                    "GROW Model for sales improvement feedback",
+                    "STAR Model for positive feedback",
+                    "STARAR Model for developmental feedback",
+                    "MEDIC Model for performance and effectiveness improvement feedback"
+                ],
+                "answer": 1,
+                "poll":[0,88,5,7],
+                "topic_name":"Giving feedback"
+            },
+    "2_4":
+            {
+                "question": "Sonia, a Senior Manager, meets her team regularly to check their progress, share feedback and address their concerns. During one such meeting with Rebecca, a Relationship Manager from her team, she learns that Rebecca has issues uncovering her client's financial needs. What should Sonia do to help her out in this situation?",
+                "options": [
+                    "Give a developmental feedback for her situation using the STARAR Model.",
+                    "Suggest a structured plan of action and determine the way forward using the GROW Model.",
+                    "Ask another team member to join her in her future calls. ",
+                    "Plan a coaching session using the MEDIC Model to guide her with the required skill."
+                ],
+                "answer": 3,
+                "poll":[0,0,12,88],
+                "topic_name":"MEDIC Model"
+            },
+	"2_5":
+            {
+                "question": "You are in a coaching session with your RM, David White, where you are using the GROW model. David says that his goal is to become an Area Head in the next five years. How would you take the conversation further? ",
+                "options": [
+                    "Can we link that goal to your family and personal goals? How will this goal affect your family and personal life?",
+                    "What do you think you should do in the next 1 - 2 years to achieve your goal of becoming an Area Head?",
+                    "What are the skills you need to develop in the next 1 - 2 years to become an Area Head in five years?",
+                    "Do you think this goal is achievable in five years? How is your situation right now?"
+                ],
+                "answer": 1,
+                "poll":[0,88,7,5],
+                "topic_name":"Field Sales Coaching"
+            },
+    "2_6":
+            {
+                "question": "Giang is using the MEDIC model to coach his team member, Hannah. After establishing the objective of the session, he motivates her to upskill herself and then builds on this by talking through the sales process and identifying the area of focus. He then explains the process of the coaching session. Next, he demonstrates the process using a role play, with him playing the role of a Relationship Manager and Hannah playing the role of the client. Why do you think demonstration is so important?",
+                "options": [
+                    "It allows Giang to show his proficiency as a Manager.",
+                    "By playing the role of the client, Hannah will be able to help Gian practice his abilities as a manager. ",
+                    "By observing the steps in the demonstration and playing the role of the client, Hannah will be able to put herself in her client's shoes and understand the positive and developmental areas."
+                ],
+                "answer": 2,
+                "poll":[0,0,100],
+                "topic_name":"MEDIC Model"
+            },
+    "2_7":
+            {
+                "question": "Which of the following is a benefit of the Consolidation step in the MEDIC model?",
+                "options": [
+                    "It allows the RM/ IS to reflect and critique their performance. ",
+                    "It allows the coach to provide feedback to the RM/ IS on their performance in the role play session. ",
+                    "The RM/IS is able to talk about the problem areas that s/he requires help on. "
+                    
+                ],
+                "answer": 0,
+                "poll":[85,6,9],
+                "topic_name":"MEDIC Model"
+            },
+    "3_1":
+            {
+                "question": "Prasong is a Senior Manager with a team of six Relationship Managers and four Insurance Specialists. He wants to ensure that they are well-versed with the structures of ABC, GDM, CDM, Close 5X and LADR models so that they can recall them easily. Which sales learning practice do you think Prasong should use to train his team?",
+                "options": [
+                    "Skills Drills",
+                    "Role Play",
+                    "Demonstration "
+                    
+                ],
+                "answer": 0,
+                "poll":[89,11,0],
+                "topic_name":"Applying Field Sales Practices"
+            },
+    "3_2":
+            {
+                "question": "Jian is a Senior Manager with AIA. During a one-on-one meeting with his team member, Tam, Jian learns that Tam is having issues handling customer objections. Which sales learning practice should Jian try out for Tam?  ",
+                "options": [
+                    "Skills Drills",
+                    "Role Play",
+                    "Demonstration ",
+                    "All of the options listed "
+                    
+                ],
+                "answer": 3,
+                "poll":[80,12,0,8],
+                "topic_name":"Applying Field Sales Practices"
+            },
+    "3_3":
+            {
+                "question": "Zhen has been working as a Relationship Manager since the last 9 months. She feels that she is not able to secure appointments as she feels she is not able to apply the Attract-Benefit-Confirm steps of the Connect phase. She speaks with her Manager, Michelle, regarding this. In the next Power Huddle, Michelle asks Mark, a senior RM to show how he would do this process. Which sales learning practice is Michelle recommending here? ",
+                "options": [
+                    "Skills Drills",
+                    "Role Play",
+                    "Demonstration "
+                    
+                ],
+                "answer": 2,
+                "poll":[10,1,89],
+                "topic_name":"Applying Field Sales Practices"
+            },
+    "3_4":
+            {
+                "question": "Amy, a Senior Manager, is on a Joint Field Work (JFW) session with Sachin, a Relationship Manager. They are meeting a client, Mr. Tan regarding a critical illness policy. After the initial introduction, Amy allowed Sachin to begin the discussion, but during the conversation she stepped in and moved on to complete the entire client meeting on her own; with Mr. Tan signing up for the policy and Sachin completing the paperwork. Did Amy do anything wrong in this situation?",
+                "options": [
+                    "No she did not. As Mr. Tan signed up for the policy, it meant that he was satisfied with the meeting; which was most important.  ",
+                    "Yes, she did. By stepping in for Sachin, it is likely that he could end up becoming too dependent on Amy to close the clients. ",
+                    "Yes, she did. This is because Amy was trying to show her experience and impress the client, which was not required. "
+                    
+                ],
+                "answer": 1,
+                "poll":[0,93,7],
+                "topic_name":"Joint Field Work "
+            },
+    "3_5":
+            {
+                "question": "Steve, a Senior Manager, is conducting a Joint Field Work (JFW) session with Martin, an Insurance Specialist. They are meeting Mrs. Samantha Lee regarding an education plan for her 4-year-old son. After introducing himself to Mrs. Lee, Steve informs her that he is there on a joint appointment with Martin to observe and support him where needed. He informs Mrs. Lee that his role is not just as Martin's manager, but also as his partner in the presentation, assuring her that they will provide the highest quality of service. Other than keeping track of Martin's performance during the client meeting, why should Steve provide this information? ",
+                "options": [
+                    "Steve wants to make the Mrs. Lee understand that the organisation is very process-driven. ",
+                    "Steve wants to clarify both his and Martin's roles, ensuring that Mrs. Lee is not taken by surprise and knows what to expect.  ",
+                    "Steve wants ensure that Mrs. Lee knows that he is Martin's manager, and can treat him accordingly."
+                    
+                ],
+                "answer": 1,
+                "poll":[5,92,3],
+                "topic_name":"Joint Field Work "
+            },
+    "3_6":
+            {
+                "question": "Akira, a Senior Manager, is conducting a Developmental Joint Field Work (JFW) for Jasmine, an RM. Which of the following statements would Akira use to put the client at ease? ",
+                "options": [
+                    "&ldquo;I am here on a joint appointment with Jasmine to observe and support in a few sections.&rdquo;",
+                    "&ldquo;My role is not just as her manager, but also as her partner in the presentation, and we will ensure that the highest quality of service is provided to you.&rdquo;",
+                    "&ldquo;I am here to support and observe Jasmine, executing what she does best. This way, I could use her example as a learning to her fellow peers during our team meetings.&rdquo;"
+                    
+                ],
+                "answer": 2,
+                "poll":[10,0,90],
+                "topic_name":"Joint Field Work "
+            },
+    "3_7":
+            {
+                "question": "Anita, a Senior Manager, is conducting a Demonstrational Joint Field Work (JFW) with Kittisak, a Relationship Manager. She would like to inform the client that she would be taking notes during their meeting. Which of the following statements would be more appropriate for a Demonstrational JFW? ",
+                "options": [
+                    "&ldquo;I will be taking notes solely for the purpose of giving feedback to Cynthia post the appointment for the sake of highlighting her strengths and development areas, if any.&rdquo;",
+                    "&ldquo;I will be taking notes during the appointment to ensure we capture all the important points.&rdquo;",
+                    "&ldquo;I wanted to let you know that I will be taking notes during our meeting.&rdquo;"
+                    
+                ],
+                "answer": 1,
+                "poll":[8,82,10],
+                "topic_name":"Joint Field Work "
+            },
+    "4_1":
+            {
+                "question": "Sarawut, a Senior Manager plans to conduct a Power Huddle with his team. What should be the structure of the Huddle?<table> <tbody> <tr> <td> <p>1</p> </td> <td> <p>2 mins</p> </td> <td> <p>Recap action points to achieve today&rsquo;s sales/service/operational goal</p> </td> </tr> <tr> <td> <p>2</p> </td> <td> <p>8 mins</p> </td> <td> <p>Cascade of the current day&rsquo;s sales/service/ operational goal</p> </td> </tr> <tr> <td> <p>3</p> </td> <td> <p>5 mins</p> </td> <td> <p>Review of yesterday&rsquo;s performance</p> </td> </tr> <tr> <td> <p>4</p> </td> <td> <p>15 mins</p> </td> <td> <p>Run sales practices comprising of role plays, skills drills, and demonstrations</p> </td> </tr> </tbody> </table>",
+                "options": [
+                    "1 &#8594; 2 &#8594; 3 &#8594; 4",
+                    "3 &#8594; 2 &#8594; 4 &#8594; 1",
+                    "4 &#8594; 2 &#8594; 3 &#8594; 1 ",
+                    "2 &#8594; 3 &#8594; 4 &#8594; 1"
+                    
+                ],
+                "answer": 1,
+                "poll":[8,82,10,0],
+                "topic_name":"Field Branch Engagement"
+            },
+    "4_2":
+            {
+                "question": "Haruto, a Senior Manager has planned a Power Hour as follows. Is the structure of the Power hour correct? <table> <tbody> <tr> <td> <p>10 mins</p> </td> <td> <p>Opening remarks and motivational session</p> </td> </tr> <tr> <td> <p>5 mins</p> </td> <td> <p>Preparation for the call session</p> </td> </tr> <tr> <td> <p>60 mins</p> </td> <td> <p>Call session with 10-minute half-time break</p> </td> </tr> <tr> <td> <p>15 mins</p> </td> <td> <p>Tally results and share learning</p> </td> </tr> <tr> <td> <p>20 mins</p> </td> <td> <p>Script refresher and role plays</p> </td> </tr> </tbody> </table>",
+                "options": [
+                    "No. &ldquo;Preparation for the call session&rdquo; should be for 20 mins.",
+                    "Yes. the structure of the Power Hour is correct.",
+                    "No. &ldquo;Script refresher and role plays&rdquo; should be before preparation for the call session. ",
+                    "Yes, except that &ldquo;Tally results and share learning&rdquo; should be for only 20 mins. "
+                    
+                ],
+                "answer": 2,
+                "poll":[1,20,78,1],
+                "topic_name":"Field Branch Engagement"
+            },
+    "4_3":
+            {
+                "question": "Sean, a Sales Manager ends his Power Hour with his team by tallying results and sharing learning. What is the significance of this activity? ",
+                "options": [
+                    "Putting the team in a positive frame of mind",
+                    "Preparing the team for different types of client calls ",
+                    "Planning for the logistics to ensure no interruptions  ",
+                    "Recognizing highest performer and sharing of best practices"
+                    
+                ],
+                "answer": 3,
+                "poll":[1,2,2,95],
+                "topic_name":"Field Branch Engagement"
+            },
+    "4_4":
+            {
+                "question": "Roy, a Sales Manager is planning to organise a Customer Event at a branch. In addition to the customer and speaker, which of the following aspects should he make sure he discusses and aligns with the Branch Manager/Area Head?",
+                "options": [
+                    "Target dates",
+                    "Target leads",
+                    "Theme and Participation of Bank staff ",
+                    "ANP and CC targets"
+                    
+                ],
+                "answer": 2,
+                "poll":[0,0,96,4],
+                "topic_name":"Field Branch Engagement"
+            },
+    "4_5":
+            {
+                "question": "Which of the following will you most likely not see in a Week in the Life Of (WILO) calendar of a Sales Manager?",
+                "options": [
+                    "Power Huddle",
+                    "Power Learning",
+                    "Power Hour",
+                    "Customer Events",
+                    "Joint Field Work"                    
+                ],
+                "answer": 3,
+                "poll":[0,0,10,85,5],
+                "topic_name":"Field Branch Engagement"
+            },
+    "4_6":
+            {
+                "question": "Which of the following is an activity you will likely see in the Month in the Life Of (MILO) calendar of a Sales Manager?",
+                "options": [
+                    "Power Huddle",
+                    "Power Hour",
+                    "Joint Field Work",
+                    "Customer Events"                    
+                ],
+                "answer": 3,
+                "poll":[2,2,8,88],
+                "topic_name":"Field Branch Engagement"
+            },
+    "4_7":
+            {
+                "question": "Which of the following is a green zone activity for an Insurance Specialist?",
+                "options": [
+                    "Travel time to go to client meetings for Joint Field Work",
+                    "Closing Appointment",
+                    "Servicing",
+                    "Case Administration"                    
+                ],
+                "answer": 1,
+                "poll":[2,80,8,10],
+                "topic_name":"Field Sales Activity & Management"
+            },
+    "4_8":
+            {
+                "question": "Which of the following is a green zone activity for a Sales Manager?",
+                "options": [
+                    "Conducting Power Learning",
+                    "Workshop Preparation",
+                    "Presenting at Sales Huddle",
+                    "Branch Insurance Workshop"                    
+                ],
+                "answer": 0,
+                "poll":[72,8,10,10],
+                "topic_name":"Field Sales Activity & Management"
+            },
+    "4_9":
+            {
+                "question": "You have a Relationship Manager in your team who is a high performer. He is regarded a good coach for new recruits. He has consistently achieved 90% of his target and is aspiring to reach Gold standard soon. What coaching program would you plan for him? ",
+                "options": [
+                    "Daily one-on-one coaching and JFW",
+                    "Partnering with a Gold RM/IS to get best practice sales techniques",
+                    "Joint Field Work (JFW) for at least the five closing appointments",
+                    "Bi-Weekly coaching including GROW",
+					"Power Camp"
+                ],
+                "answer": 3,
+                "poll":[2,80,10,70,10],
+                "topic_name":"Field Sales Activity & Management"
+            },
+    "4_10":
+            {
+                "question": "What support would you plan for a team member who is a star performer having achieved 110% of his targets on numerous occasions to maintain his high performance? ",
+                "options": [
+                    "Daily one-on-one coaching and JFW",
+                    "Joint Field Work (JFW) for at least the five closing appointments",
+                    "Monthly coaching including GROW",
+                    "Weekly calling sessions"                    
+                ],
+                "answer": 2,
+                "poll":[2,8,70,10],
+                "topic_name":"Field Sales Activity & Management"
+            },
+    "4_11":
+            {
+                "question": "What skill development area would you recommend for a team member whose individual sales forecaster reveals that his Appointments to First Meetings % is 53%?  ",
+                "options": [
+                    "Quality of needs identification",
+                    "Quality of ABC and Objection Handling ",
+                    "Appropriate solutions presented",
+                    "None as benchmark % met"                    
+                ],
+                "answer": 1,
+                "poll":[2,80,8,10],
+                "topic_name":"Field Sales Activity & Management"
+            },
+    "4_12":
+            {
+                "question": "What will the following question   help the Relationship Manager/Insurance Specialist understand during pre-sales planning?<br>What are your client's potential insurance goals?",
+                "options": [
+                    "Understand the objective of meeting the client",
+                    "Understand influencer(s) for your client",
+                    "Understand how to customize the sales meeting",
+                    "Understand forces that will work against the RM/IS"                    
+                ],
+                "answer": 2,
+                "poll":[2,8,88,10],
+                "topic_name":"Field Sales Activity & Management"
+            }
+            
+}

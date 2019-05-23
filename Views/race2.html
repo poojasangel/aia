@@ -1,0 +1,114 @@
+<div class="content" id="{{getCurrentPage().id}}_page">
+    <div class="level_dest">Destination: {{levels[currentLevel - 1]['destination']}}</div>
+    <div class="life_cont">
+        <span>{{levels[currentLevel - 1]['life_rem']}}</span>
+        <ul class="lifes">
+            <li ng-repeat="i in getTimes(levels[currentLevel - 1]['life'])" ng-class="{noLife: i >= levels[currentLevel - 1]['life_rem']}">
+            </li>
+        </ul>
+    </div>
+    <div class="race_time">{{timer| timeformat}}</div>
+    <div class="animation">
+        <animate src="animations/race2.js" id="race2" contid="race2" width="1014" height="650" autoplay="false" />
+    </div>
+    <div class="ship myvehicle" ng-vehicle data-actualhtwd="305,45" data-dist="130"></div>
+    <div class="obstacles">
+        <div ng-obstacle data-time="1" class="obstacle" data-speed="8" data-actualhtwd="166,90"></div>
+        <div ng-obstacle data-time="2" class="obstacle" data-speed="9" data-actualhtwd="345,127"></div>
+        <div ng-obstacle data-time="21" class="obstacle" data-speed="1.8" data-actualhtwd="139,90"></div>
+        <div ng-obstacle data-time="10" class="obstacle" data-speed="2.4" data-actualhtwd="139,90"></div>
+        <div ng-obstacle data-time="15" class="obstacle" data-speed="5" data-actualhtwd="249,108"></div>
+        <div ng-obstacle data-time="26" class="obstacle" data-speed="1.8" data-actualhtwd="101,121"></div>
+        <div ng-obstacle data-time="12" class="obstacle" data-speed="2" data-actualhtwd="217,48"></div>
+        <div ng-obstacle data-time="10" class="obstacle" data-speed="9" data-actualhtwd="345,127"></div>
+        <div ng-obstacle data-time="25" class="obstacle" data-speed="2.4" data-actualhtwd="139,90"></div>
+        <div ng-obstacle data-time="20" class="obstacle" data-speed="2" data-actualhtwd="217,48"></div>
+        <div ng-obstacle data-time="24" class="obstacle" data-speed="1.5" data-actualhtwd="166,90"></div>
+        <div ng-obstacle data-time="9" class="obstacle" data-speed="2.8" data-actualhtwd="160,108"></div>
+        <div ng-obstacle data-time="22" class="obstacle" data-speed="5" data-actualhtwd="249,108"></div>
+        <div ng-obstacle data-time="17" class="obstacle" data-speed="1.8" data-actualhtwd="101,121"></div>
+        
+        
+    </div>
+    <div class="helpModal">
+        <div class="help_cont">
+            <div style="font-family: AgencyFb;
+
+font-size: 24px;
+
+text-transform: uppercase;
+
+text-shadow: 1px 0px 2px #fff , 1px 0px 10px #fff;
+
+text-align: center;
+
+padding: 18px 0;">How to play</div>
+            <div style="width: 76%;
+
+margin: auto;
+
+padding-top: 20px;margin-bottom: 30px;">Go to the location as soon as possible. Remember you have four lives. Use them carefully...you will need your lives when hacking the system when you reach the cyber den. Lose all your lives here and the mission fails! Good luck!</div>
+            <div style="width: 76%;
+
+margin: auto;
+
+min-height: 40px;
+
+background: url(images/level1/icon_arrow_buttons.png) no-repeat right center;">
+                <b>Controls:</b><br/>
+                Press Up and Down arrow keys.
+            </div>
+            <div style="text-align: center;
+
+padding: 20px 0 10px;
+
+color: rgb(24,108,147);"><i>-OR-</i></div>
+                <div style="width: 76%;
+
+margin: auto;
+
+height: 50px;
+padding-top: 10px;
+background: url(images/level1/icon_swipe.png) no-repeat right top;">Swipe up and down to change lanes.</div>
+                <div style="width: 76%;
+
+margin: auto;">Your goal is to avoid crashing into obstacles.</div>
+            <button ng-click="startRace()" id="btn_start"></button>
+            </div>
+    </div>
+    <div class="raceEndModal">
+        <div class="raceend_cont">
+            <div style="font-family: AgencyFb;
+
+font-size: 24px;
+margin-top: 98px;
+text-transform: uppercase;
+
+text-shadow: 1px 0px 2px #fff , 1px 0px 10px #fff;
+
+text-align: center;
+
+padding: 18px 0;">Congratulations!</div>
+<div style="width: 75%;margin: 157px auto 0 auto">Good job! You've reached! You've got {{levels[currentLevel - 1]['life_rem']}} lives left.<br><br>Our agents will help you enter the building.              
+        </div>
+        <button id="btn_continue" ng-click="startMission()" />
+        </div>
+        
+    </div>
+    <div class="modal" tabindex="-1" role="dialog" id="failModal" data-backdrop="false">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+
+
+                <!--                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    X
+                                </button>-->
+
+                <div class="modal-body" >
+                    <div><div class="cd1">Mission failed!</div><div class="cd2">No lives left!</div><button class="btn_retry" ng-click="replayLevel()"></button></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+

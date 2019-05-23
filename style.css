@@ -1,0 +1,1877 @@
+/* Put your css in here */
+* { 
+    -moz-box-sizing: border-box; 
+    -webkit-box-sizing: border-box; 
+    box-sizing: border-box; 
+}
+@font-face{ font-family: 'MPL';
+            src: url('fonts/Myriad-Pro-Light.eot'); /* IE9 Compat Modes */
+            src: url("fonts/Myriad-Pro-Light.ttf") format("truetype");
+            src: url('fonts/Myriad-Pro-Light.woff') format('woff2'),
+                url('fonts/Myriad-Pro-Light.woff') format('woff'), /* Modern Browsers */
+                url("fonts/Myriad-Pro-Light.otf") format("opentype")
+}
+@font-face{ font-family: 'RusSq';
+            src: url('fonts/RussellSquareStd.eot'); /* IE9 Compat Modes */
+            src: url("fonts/RussellSquareStd.ttf") format("truetype");
+            src: url('fonts/RussellSquareStd.woff') format('woff2'),
+                url('fonts/RussellSquareStd.woff') format('woff'), /* Modern Browsers */
+                url("fonts/RussellSquareStd.otf") format("opentype")
+}
+@font-face{ font-family: 'OratorStd';
+            src: url('fonts/OratorStd.eot'); /* IE9 Compat Modes */
+            src: url("fonts/OratorStd.ttf") format("truetype");
+            src: url('fonts/OratorStd.woff') format('woff2'),
+                url('fonts/OratorStd.woff') format('woff'), /* Modern Browsers */
+                url("fonts/OratorStd.otf") format("opentype")
+}
+@font-face{ font-family: 'AgencyFb';
+            src: url('fonts/AGENCYR_0.eot'); /* IE9 Compat Modes */
+            src: url("fonts/AGENCYR_0.ttf") format("truetype");
+            src: url('fonts/AGENCYR_0.woff') format('woff2'),
+                url('fonts/AGENCYR_0.woff') format('woff'), /* Modern Browsers */
+                url("fonts/AGENCYR_0.otf") format("opentype")
+}
+.application
+{
+    height: 650px;
+    width: 1014px;
+    margin: 0 auto;
+/*    overflow: hidden;*/
+    background: #fff;
+    position: relative;
+}
+body
+{
+    background: #000;
+    font-family: MPL;
+    color: #fff;
+    overflow: hidden;
+position: fixed;
+margin: auto;
+left: 0;
+right: 0;
+}
+.content
+{
+    position: relative;
+}
+#page-loading {
+    position: absolute;
+    height: 650px;
+    width: 1014px;
+    margin: 0 auto;
+    background: rgba(14,37,62,1);
+    z-index: 6;
+    text-align: center;
+    line-height: 650px;
+    color: #fff;
+}
+.inner_hidden_cont {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.utils {
+    position: absolute;
+    z-index: 1;
+    margin: 0;
+    padding: 10px 10px 0 0;
+    right: 0;
+    list-style: none;
+}
+.utils li
+{
+    float: right;
+}
+#play-pause {
+    display: block;
+    width: 44px;
+    height: 47px;
+
+    border: 0;
+    padding: 0;
+    cursor: pointer;
+}
+#play-pause.pause
+{
+    background: url(images/btn_PAUSE.png);
+}
+#play-pause.resume
+{
+    background: url(images/btn_RESUME.png);
+}
+#play-pause.noTimer
+{
+    display: none;
+}
+.level_dest {
+    position: absolute;
+    color: #00ffff;
+    top:25px;
+    z-index: 4;
+    text-transform: uppercase;
+    left: 50%;
+    transform: translateX(-50%);
+    font-family: OratorStd;
+    font-size: 18px;
+}
+
+.life_cont .lifes li{
+    display: inline-block;
+    width: 24px;
+    height: 34px;
+    background-image: url(images/icon_power_active.png)
+}
+.life_cont .lifes li.noLife{
+
+    background-image: url(images/icon_power_inactive.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.life_cont .lifes {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    position: relative;
+    top: 2px;
+}
+.life_cont {
+    position: absolute;
+    z-index: 4;
+    bottom: 0px;
+    color: #ff33cc;
+    font-size: 48px;
+    left: 10px;
+    text-shadow: 0 0 3px #ff33cc;
+    font-family: RusSq;
+    width: 165px;
+    height: 60px;
+    padding-left: 10px;
+    background: url(images/bg_counters.png);
+}
+.race_time {
+    position: absolute;
+    bottom: 0px;
+    right: 10px;
+    z-index: 4;
+    color: #00ffff;
+    text-shadow: 0 0 3px #00ffff;
+    font-family: RusSq;
+    width: 165px;
+    height: 60px;
+    font-size: 48px;
+    background: url(images/bg_counters.png);
+    text-align: center;
+}
+.passcode {
+    position: absolute;
+    z-index: 3;
+    bottom: 21px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.passcode ul li {
+   /*  display: inline-block; */
+	float:left;
+    background-color: rgb(1,46,87);
+    margin-left: 5px;
+    color: #fff700;
+    font-family: RusSq;
+    font-weight: bold;
+    font-size: 18px;
+    list-style: none;
+    overflow: hidden;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    line-height: 25px;
+}
+.passcode ul li .p_show
+{
+    display: block;
+
+    height: 0;
+
+    overflow: hidden;
+
+    width: 100%;
+}
+.passcode ul li .p_hide
+{
+    display: block;
+
+    height: 100%;
+
+    overflow: hidden;
+
+    width: 100%;
+}
+.poll_result {
+    font-family: AgencyFb;
+    color: rgb(153,255,0);
+    font-size: 27px;
+    position: absolute;
+    left: -84px;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: right;
+    display: none;
+    width: 77px;
+    height: 29px;
+    background: url(images/poll_arrow.png);
+    padding-right: 26px;
+    line-height: 29px;
+}
+#questionModal,#passcodeModal {
+    position: absolute;
+    width: 100%;
+    background: url(images/fade_patch.png);
+    height: 100%;
+    display: none;
+    z-index: 3;
+}
+#passcodeModal
+{
+    z-index: 2
+}
+#questionModal .modal-body
+{
+    position: relative !important;
+
+}
+#questionModal #topic_name {
+    font-family: AgencyFb;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #fff;
+    text-shadow: 1px 1px 10px #ff380e , 1px 1px 10px #ff380e;
+    text-align: center;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 45px;
+}
+#questionModal .quiz-area {
+	width: 980px;
+	height: 559px;
+	background: url(images/POPUP_Q.png);
+	position: relative;
+	left: 20px;
+	padding: 100px 79px;
+	top: 40px;
+}
+#questionModal .quiz-area #question {
+    color: #ff380e;
+    padding-bottom: 20px;
+    border-bottom: 4px dotted rgb(27,106,150);
+    font-size: 18px;
+    text-align: center;
+}
+#questionModal .quiz-area #options {
+	padding: 0 0 0 74px;
+	list-style: none;
+	margin: 0;
+	width: 96%;
+}
+#questionModal .quiz-area input[type="checkbox"]{
+    visibility:hidden;
+}
+#questionModal .quiz-area #options label
+{
+    color: #fff;
+    font-size: 18px;
+    cursor: pointer;
+}
+#questionModal .quiz-area .btn_submit
+{
+    width: 225px;
+
+    height: 63px;
+
+    background: url(images/btn_SUBMIT_up.png);
+
+    border: 0;
+
+    padding: 0;
+
+    font-size: 0;
+
+    position: absolute;
+
+    bottom: 19px;
+
+    left: 0px;
+
+    right: 0;
+
+    margin: auto;
+    cursor: pointer;
+}
+#questionModal .quiz-area .next-question
+{
+    width: 225px;
+
+    height: 63px;
+
+    background: url(images/btn_CONTINUE_up.png);
+
+    border: 0;
+
+    padding: 0;
+
+    font-size: 0;
+
+    position: absolute;
+
+    bottom: 19px;
+
+    left: 0px;
+
+    right: 0;
+
+    margin: auto;
+    cursor: pointer;
+}
+#questionModal .quiz-area #options li {
+	position: relative;
+	margin-top: -8px;
+}
+#questionModal .quiz-area #options.mcq input + label {
+    background: url(images/btn_radio_ACTIVE.png) no-repeat left center;
+    height: 26px;
+    display: table-cell;
+    padding-left: 36px;
+    vertical-align: middle;
+    position: relative;
+}
+#questionModal .quiz-area #options.mmcq input + label {
+    background: url(images/btn_checkbox_ACTIVE.png) no-repeat left center;
+    height: 26px;
+    display: table-cell;
+    padding-left: 36px;
+    vertical-align: middle;
+    position: relative
+}
+#questionModal .quiz-area #options.mcq input:checked + label { background: url(images/btn_radio_SELECTED.png) no-repeat left center; }
+#questionModal .quiz-area #options.mmcq input:checked + label { background: url(images/btn_checkbox_SELECTED.png) no-repeat left center; }
+
+#questionModal .quiz-area #options li .showcorrincorr {
+    display: block;
+    position: absolute;
+    left: -35px;
+    display: none;
+    top: 15px;
+}
+#questionModal .quiz-area #options li.correct .showcorrincorr
+{
+    display: inline-block;
+    width: 34px;
+    height: 33px;
+    background: url(images/icon_correct.png)
+}
+#questionModal .quiz-area #options li.incorrect .showcorrincorr
+{
+    display: inline-block;
+    width: 34px;
+    height: 33px;
+    background: url(images/icon_incorrect.png)
+}
+#questionModal .hints {
+    width: 505px;
+    height: 23px;
+    background: url(images/HINT_pointer.png) no-repeat center center;
+    list-style: none;
+    padding: 0;
+    position: relative;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: 53px;
+}
+#questionModal .hints #btn_hint1 {
+    width: 76px;
+    height: 75px;
+    background: url(images/btn_5050_up.png);
+    font-size: 0;
+    padding: 0;
+    border: 0;
+    position: absolute;
+    top: -40px;
+    left: 0;
+    cursor: pointer;
+}
+#questionModal .hints #btn_hint1.disabled
+{
+    background: url(images/btn_5050_disabled.png);
+    cursor: default;
+}
+#questionModal .hints #btn_hint2 {
+    width: 76px;
+    height: 75px;
+    background: url(images/btn_Poll_up.png);
+    font-size: 0;
+    padding: 0;
+    border: 0;
+    position: absolute;
+    top: -40px;
+    right: 0;
+    cursor: pointer;
+}
+#questionModal .hints #btn_hint2.disabled
+{
+    background: url(images/btn_Poll_disabled.png);
+    cursor: default;
+}
+#questionModal .quiz_correct {
+    width: 383px;
+    height: 346px;
+    background: url(images/POPUP_Success.png);
+    margin: auto;
+    margin-top: 115px;
+    padding-top: 76px;
+    position: relative;
+}
+#questionModal .quiz_incorrect {
+    width: 383px;
+    height: 346px;
+    background: url(images/POPUP_Fail.png);
+    margin: auto;
+    margin-top: 115px;
+    padding-top: 76px;
+    position: relative;
+}
+#questionModal .quiz_correct .cd1 {
+    font-size: 30px;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: AgencyFb;
+    text-align: center;
+    text-shadow: 1px 1px 10px rgb(47,227,49) , 1px 1px 10px rgb(47,227,49);
+    margin-bottom: 25px;
+}
+#questionModal .quiz_incorrect .cd1 {
+    font-size: 30px;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: AgencyFb;
+    text-align: center;
+    text-shadow: 1px 1px 10px #ff380e , 1px 1px 10px #ff380e;
+    margin-bottom: 25px;
+}
+#questionModal .quiz_correct .cd2 {
+    text-align: center;
+    color: #fff;
+    font-size: 30px;
+}
+#questionModal .quiz_incorrect .cd2 {
+    color: #ff380e;
+    text-align: center;
+    font-size: 30px;
+    padding: 0 43px;
+    line-height: 1em;
+}
+#questionModal .quiz_correct .btn_continue
+{
+    width: 225px;
+    height: 63px;
+    background: url(images/btn_CONTINUE_up.png);
+    border: 0;
+    padding: 0;
+    margin: auto;
+    margin-top: auto;
+    display: block;
+    margin-top: 9px;
+    transform: scale(0.9);
+    cursor: pointer;
+}
+
+#questionModal .quiz_incorrect .btn_retry
+{
+    width: 220px;
+    height: 58px;
+    background: url(images/btn_REPLAY_up.png);
+    border: 0;
+    padding: 0;
+    margin: auto;
+    margin-top: auto;
+    display: block;
+    margin-top: 45px;
+    /*    transform: scale(0.9);*/
+    cursor: pointer;
+}
+#questionModal table td {
+	border: 1px solid #fff;
+	padding: 0 10px;
+	height: 30px;
+	vertical-align: middle;
+}
+#questionModal table td p
+{
+    margin: 0;
+}
+#questionModal table {
+	border-collapse: collapse;
+	margin: 10px auto 0 auto;
+}
+#calc-contain {
+    background: url(images/spritesheet_keypad.png) 0 -123px;
+    width: 322px;
+    height: 503px;
+    margin: 68px auto;
+}
+#calc-contain.correct {
+    background-position: -323px -123px
+}
+form[name="calculator"] input:nth-of-type(1)
+{
+    display: block;
+
+    background: transparent;
+
+    height: 52px;
+
+    width: 100%;
+
+    font-family: RusSq;
+
+    text-align: right;
+
+    color: #fff;
+
+    border: none;
+
+    font-size: 30px;
+    margin-bottom: 27px;
+    padding-right: 34px;
+}
+form[name="calculator"] input:nth-of-type(2)
+{
+    background: url('images/spritesheet_keypad.png') no-repeat -222px 0;
+    width: 73px;
+    height: 40px;
+    padding: 0;
+    border: 0;
+    font-size: 0;
+    cursor: pointer;
+}
+form[name="calculator"] input:nth-of-type(3)
+{
+    background: url('images/spritesheet_keypad.png') no-repeat -370px 0;
+    width: 73px;
+    height: 40px;
+    padding: 0;
+    border: 0;
+    font-size: 0;
+    cursor: pointer;
+}
+form[name="calculator"] input:nth-of-type(4)
+{
+    background: url('images/spritesheet_keypad.png') no-repeat -518px 0;
+    width: 73px;
+    height: 40px;
+    padding: 0;
+    border: 0;
+    font-size: 0;
+    cursor: pointer;
+    margin-right: 0;
+}
+form[name="calculator"] input:nth-of-type(5)
+{
+    background: url('images/spritesheet_keypad.png') no-repeat -74px -41px;
+    width: 73px;
+    height: 40px;
+    padding: 0;
+    border: 0;
+    font-size: 0;
+    cursor: pointer;
+}
+form[name="calculator"] input:nth-of-type(6)
+{
+    background: url('images/spritesheet_keypad.png') no-repeat -222px -41px;
+    width: 73px;
+    height: 40px;
+    padding: 0;
+    border: 0;
+    font-size: 0;
+    cursor: pointer;
+}
+form[name="calculator"] input:nth-of-type(7)
+{
+    background: url('images/spritesheet_keypad.png') no-repeat -370px -41px;
+    width: 73px;
+    height: 40px;
+    padding: 0;
+    border: 0;
+    font-size: 0;
+    cursor: pointer;
+    margin-right: 0;
+}
+form[name="calculator"] input:nth-of-type(8)
+{
+    background: url('images/spritesheet_keypad.png') no-repeat -518px -41px;
+    width: 73px;
+    height: 40px;
+    padding: 0;
+    border: 0;
+    font-size: 0;
+    cursor: pointer;
+}
+form[name="calculator"] input:nth-of-type(9)
+{
+    background: url('images/spritesheet_keypad.png') no-repeat -74px -82px;
+    width: 73px;
+    height: 40px;
+    padding: 0;
+    border: 0;
+    font-size: 0;
+    cursor: pointer;
+}
+form[name="calculator"] input:nth-of-type(10)
+{
+    background: url('images/spritesheet_keypad.png') no-repeat -222px -82px;
+    width: 73px;
+    height: 40px;
+    padding: 0;
+    border: 0;
+    font-size: 0;
+    cursor: pointer;
+    margin-right: 0;
+}
+form[name="calculator"] input:nth-of-type(11)
+{
+    background: url('images/spritesheet_keypad.png') no-repeat -74px 0;
+    width: 73px;
+    height: 40px;
+    padding: 0;
+    border: 0;
+    font-size: 0;
+    cursor: pointer;
+    margin-bottom: 0;
+}
+form[name="calculator"] input:nth-of-type(12)
+{
+    background: url('images/spritesheet_keypad.png') no-repeat -370px -82px;
+    width: 73px;
+height: 40px;
+    padding: 0;
+    border: 0;
+    font-size: 0;
+    cursor: pointer;
+    margin-bottom: 0;
+}
+form[name="calculator"] input:nth-of-type(13)
+{
+    background: url('images/spritesheet_keypad.png') no-repeat -518px -82px;
+    width: 73px;
+height: 40px;
+    padding: 0;
+    border: 0;
+    font-size: 0;
+    cursor: pointer;
+    margin: 0;
+}
+input[type="button"] {
+    margin-right: 16px;
+    margin-bottom: 16px;
+    float: left;
+}
+.blink {
+    animation: blink-animation 1s steps(5, start) infinite;
+    -webkit-animation: blink-animation 1s steps(5, start) infinite;
+}
+@keyframes blink-animation {
+    to {
+        visibility: hidden;
+    }
+}
+@-webkit-keyframes blink-animation {
+    to {
+        visibility: hidden;
+    }
+}
+#levelOverModal
+{
+    position: absolute;
+    width: 100%;
+    background: url(images/fade_patch.png);
+    height: 100%;
+    display: none;
+    z-index: 2;
+}
+#levelOverModal .modal-body
+{
+    width: 383px !important;
+    height: 346px;
+    background: url(images/POPUP_Success.png);
+    margin: auto;
+    margin-top: auto;
+    margin-top: 115px;
+    padding-top: 76px;
+    position: relative;
+}
+#levelOverModal .cd1 {
+    font-size: 30px;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: AgencyFb;
+    text-align: center;
+    text-shadow: 1px 1px 10px rgb(47,227,49) , 1px 1px 10px rgb(47,227,49);
+    margin-bottom: 25px;
+}
+#levelOverModal .cd2 {
+    text-align: center;
+    color: #fff;
+    font-size: 30px;
+}
+#levelOverModal .btn_continue {
+    width: 225px;
+    height: 63px;
+    background: url(images/btn_CONTINUE_up.png);
+    border: 0;
+    padding: 0;
+    margin: auto;
+    margin-top: auto;
+    display: block;
+    margin-top: 75px;
+    transform: scale(0.9);
+    cursor: pointer;
+}
+.raceEndModal {
+    position: absolute;
+    width: 100%;
+    background: transparent;
+    height: 100%;
+    display: none;
+    z-index: 1;
+    top: -64px;
+    overflow: hidden;
+}
+.raceEndModal .raceend_cont {
+    width: 471px;
+    height: 513px;
+    background: url(images/POPUP_Reached.png);
+    position: absolute;
+    bottom: -524px;
+}
+.raceEndModal #btn_continue {
+    position: absolute;
+    bottom: 0;
+    border: 0;
+    background: url(images/btn_CONTINUE_up.png);
+    width: 225px;
+    height: 63px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    cursor: pointer;
+}
+.helpModal {
+    position: absolute;
+    width: 100%;
+    background: url(images/fade_patch.png);
+    height: 100%;
+    display: none;
+    z-index: 3;
+    top: -65px;
+}
+.help_cont {
+    width: 452px;
+    height: 0px;
+    background: url(images/level1/POPUP_HTP_Journey.png);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    overflow: hidden;
+}
+.helpModal #btn_start {
+    width: 220px;
+    height: 58px;
+    background: url(images/btn_START_up.png);
+    border: 0;
+    margin: 48px auto;
+    display: block;
+    cursor: pointer;
+}
+.helpModal #btn_back {
+    background: url('images/spritesheet_arrow_buttons.png') no-repeat 0 0;
+	width: 30px;
+	height: 30px;
+    border: 0;
+    margin: 22px -8px;
+    display: block;
+    cursor: pointer;
+}
+.helpModal #btn_back:hover {
+	background: url('images/spritesheet_arrow_buttons.png') no-repeat -30px 0px;
+}
+.helpModal #btn_next {
+    background: url('images/spritesheet_arrow_buttons.png') no-repeat -60px 0;
+	width: 29px;
+	height: 30px;
+    border: 0;
+    margin: 22px auto;
+    display: block;
+    cursor: pointer;
+}
+.helpModal #btn_next:hover {
+	background: url('images/spritesheet_arrow_buttons.png') no-repeat -90px 0px;
+}
+
+#help3 #btn_back {
+    margin: 37px 127px !important;
+}
+#help2 #btn_next {
+    margin: -57px 238px !important;
+}
+.leve4Back{
+	margin: 28px 101px !important;
+}
+#race1_page,#race2_page,#race3_page,#race4_page
+{
+    background: rgb(0,22,40);
+    overflow: hidden;
+}
+#failModal
+{
+    position: absolute;
+    width: 100%;
+    background: url(images/fade_patch.png);
+    height: 100%;
+    display: none;
+    z-index: 3;
+    top:0;
+}
+#failModal .modal-body {
+    position: relative !important;
+}
+#failModal .modal-body {
+    width: 383px;
+    height: 346px;
+    background: url(images/POPUP_Fail.png);
+    margin: auto;
+    margin-top: 115px;
+    padding-top: 76px;
+    position: relative;
+}
+#failModal .cd1 {
+    font-size: 30px;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: AgencyFb;
+    text-align: center;
+    text-shadow: 1px 1px 10px #ff380e , 1px 1px 10px #ff380e;
+    margin-bottom: 25px;
+}
+#failModal .cd2 {
+    color: #ff380e;
+    text-align: center;
+    font-size: 30px;
+    padding: 0 43px;
+    line-height: 1em;
+}
+#failModal .btn_retry {
+    width: 220px;
+    height: 58px;
+    background: url(images/btn_REPLAY_up.png);
+    border: 0;
+    padding: 0;
+    margin: auto;
+    display: block;
+    margin-top: 73px;
+    /* transform: scale(0.9); */
+    cursor: pointer;
+}
+
+#scoreModal .modallevel1 .right {
+    height:440px;
+    width:404px;
+    background:url(images/map/POPUP_Info_01.png);
+    float:left;
+}
+#scoreModal .modallevel2 .right {
+    height:464px;
+    width:405px;
+    background:url(images/map/POPUP_Info_04.png);
+    float:left;
+}
+#scoreModal .modallevel3 .right {
+    height:440px;
+    width:412px;
+    background:url(images/map/POPUP_Info_02.png);
+    float:left;
+}
+#scoreModal .modallevel4 .right {
+    height:464px;
+    width:419px;
+    background:url(images/map/POPUP_Info_03.png);
+    float:left;
+}
+#scoreModal #btn_continue {
+	position: absolute;
+	bottom: -23px;
+	width: 235px;
+	height: 69px;
+	background: url(images/map/btn_CONTINUE2_up.png);
+	border: 0;
+	cursor: pointer;
+	left: 189px;
+}
+#scoreModal {
+    position: absolute;
+width: 100%;
+background: url(images/fade_patch.png);
+height: 100%;
+display: none;
+z-index: 3;
+}
+
+#scoreModal .modal-dialog {
+	background: url(images/map/POPUP_Info.png);
+	width: 750px;
+	height: 488px;
+	top: 12%;
+	left: 50%;
+	transform: translateX(-50%);
+	position: relative;
+}
+#scoreModal .levelName {
+	font-family: AgencyFb;
+	font-size: 28px;
+	text-transform: uppercase;
+	color: #fff;
+	text-shadow: 1px 1px 10px #00ffff, 1px 1px 10px #00ffff;
+	text-align: center;
+	top: 14px;
+	position: absolute;
+	line-height: 1.1em;
+	width: 100%;
+}
+#scoreModal .left {
+	width: auto;
+	overflow: hidden;
+	position: relative;
+	padding: 0 30px 0 10px;
+}
+
+/* map css */
+#map_page {
+    width: 1014px;
+    height: 650px;
+    background: url(images/map/BG_map.png);
+    position: relative;
+}
+#map_page .levels {
+    position: absolute;
+    width: 211px;
+    height: 95px;
+}
+#map_page .levels.active
+{
+    cursor: pointer;
+}
+#map_page .level1.levels {
+    top: 99px;
+    left: 544px;
+}
+#map_page .level2.levels {
+    left: 386px;
+    top: 182px;
+}
+#map_page .level3.levels {
+    top: 318px;
+    left: 437px;
+}
+#map_page .level4.levels {
+    top: 500px;
+    left: 690px;
+}
+#map_page #briefModal {
+    position: absolute;
+    width: 100%;
+    background: url(images/map/POPUP_Info.png);
+    height: 100%;
+    display: none;
+    z-index: 3;
+    width: 750px;
+    height: 488px;
+    top: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+#map_page #briefModal .modal-body
+{
+    width: 750px;
+    height: 488px;
+}
+#map_page #briefModal .left {
+	width: auto;
+	overflow: hidden;
+	top: 50%;
+	position: relative;
+	transform: translateY(-50%);
+	padding: 0 30px 0 10px;
+}
+#map_page #briefModal .modallevel1 .right {
+    height:440px;
+    width:404px;
+    background:url(images/map/POPUP_Info_01.png);
+    float:left;
+}
+#map_page #briefModal .modallevel2 .right {
+    height:464px;
+    width:405px;
+    background:url(images/map/POPUP_Info_04.png);
+    float:left;
+}
+#map_page #briefModal .modallevel3 .right {
+    height:440px;
+    width:412px;
+    background:url(images/map/POPUP_Info_02.png);
+    float:left;
+}
+#map_page #briefModal .modallevel4 .right {
+    height:464px;
+    width:419px;
+    background:url(images/map/POPUP_Info_03.png);
+    float:left;
+}
+#map_page #briefModal #btn_continue {
+	position: absolute;
+	bottom: -23px;
+	width: 235px;
+	height: 69px;
+	background: url(images/map/btn_CONTINUE2_up.png);
+	border: 0;
+	cursor: pointer;
+	left: 189px;
+}
+
+
+/*  race1 css  */
+#race1_page .bike {
+    position: absolute;
+    width: 202px;
+    height: 129px;
+    /* background: blue; */
+    top: 275px;
+    right: 27px;
+    background: url(images/level4/playerBike.png) no-repeat center;
+    background-size: 100%;
+    z-index: 4;
+
+}
+
+#race1_page .obstacle {
+    position: absolute;
+
+
+}
+#race1_page .obstacles .obstacle:nth-of-type(1) {
+    background-image: url(images/level1/road_obstacle5.png);
+    top: 271px;
+    width: 59px;
+    height: 127px;
+    left: -104px;
+}
+#race1_page .obstacles .obstacle:nth-of-type(2) {
+    background-image: url(images/level1/road_obstacle3.png);
+    top: 155px;
+    width: 249px;
+    height: 142px;
+    left: -300px;
+}
+#race1_page .obstacles .obstacle:nth-of-type(3) {
+    background-image: url(images/level1/road_obstacle6.png);
+    top: 371px;
+    width: 250px;
+    height: 147px;
+    left: -300px;
+}
+#race1_page .obstacles .obstacle:nth-of-type(4) {
+    background-image: url(images/level1/road_obstacle4.png);
+    top: 371px;
+    width: 250px;
+    height: 147px;
+    left: -300px;
+}
+
+#race1_page .obstacles .obstacle:nth-of-type(5) {
+    background-image: url(images/level1/road_obstacle7.png);
+    top: 282px;
+    width: 166px;
+    height: 104px;
+    left: -200px;
+}
+#race1_page .obstacles .obstacle:nth-of-type(6) {
+    background-image: url(images/level1/road_obstacle7.png);
+    top: 173px;
+    width: 166px;
+    height: 104px;
+    left: -200px;
+}
+#race1_page .obstacles .obstacle:nth-of-type(7) {
+    background-image: url(images/level1/road_obstacle1.png);
+    top: 390px;
+    width: 141px;
+    height: 111px;
+    left: -200px;
+}
+#race1_page .obstacles .obstacle:nth-of-type(8) {
+    background-image: url(images/level1/road_obstacle1.png);
+    top: 283px;
+    width: 141px;
+    height: 111px;
+    left: -200px;
+}
+#race1_page .obstacles .obstacle:nth-of-type(13){
+	background-image: url(images/level1/road_obstacle1.png);
+	top: 392px;
+	width: 141px;
+	height: 111px;
+	left: -220px;
+}
+#race1_page .obstacles .obstacle:nth-of-type(9) {
+    background-image: url(images/level1/road_obstacle6.png);
+    top: 371px;
+    width: 250px;
+    height: 147px;
+    left: -300px;
+}
+#race1_page .obstacles .obstacle:nth-of-type(10) {
+    background-image: url(images/level1/road_obstacle3.png);
+    top: 155px;
+    width: 249px;
+    height: 142px;
+    left: -300px;
+}
+#race1_page .obstacles .obstacle:nth-of-type(11) {
+	background-image: url(images/level1/road_obstacle7.png);
+	top: 397px;
+	width: 166px;
+	height: 104px;
+	left: -200px;
+}
+#race1_page .obstacles .obstacle:nth-of-type(12) {
+    background-image: url(images/level1/road_obstacle7.png);
+    top: 173px;
+    width: 166px;
+    height: 104px;
+    left: -200px;
+}
+#race1_page .obstacles .obstacle:nth-of-type(14) {
+	background-image: url(images/level1/road_obstacle6.png);
+	top: 154px;
+	width: 250px;
+	height: 147px;
+	left: -300px;
+}
+#race1_page .obstacles .obstacle:nth-of-type(15) {
+    background-image: url(images/level1/road_obstacle4.png);
+    top: 371px;
+    width: 250px;
+    height: 147px;
+    left: -300px;
+}
+#race1_page #collision{
+    width: 152px;
+    height: 152px;
+    display:block;
+    overflow:hidden;
+    position: relative;
+    display: none;
+}
+
+/* race 2 */
+
+#race2_page .ship {
+    position: absolute;
+    width: 429px;
+    height: 76px;
+    /* background: blue; */
+    top: 240px;
+    right: 27px;
+    background: url(images/level3/playerBoat.png) no-repeat;
+    z-index: 3;
+    -webkit-animation: play1 .8s steps(20) infinite;
+       -moz-animation: play1 .8s steps(20) infinite;
+        -ms-animation: play1 .8s steps(20) infinite;
+         -o-animation: play1 .8s steps(20) infinite;
+            animation: play1 .8s steps(20) infinite;
+    animation-play-state: paused;
+}
+@-webkit-keyframes play1 {
+   from { background-position:    0px; }
+     to { background-position: -10000px; }
+}
+
+@-moz-keyframes play1 {
+   from { background-position:    0px; }
+     to { background-position: -10000px; }
+}
+
+@-ms-keyframes play1 {
+   from { background-position:    0px; }
+     to { background-position: -10000px; }
+}
+
+@-o-keyframes play1 {
+   from { background-position:    0px; }
+     to { background-position: -10000px; }
+}
+
+@keyframes play1 {
+   from { background-position:    0px; }
+     to { background-position: -10000px; }
+}
+#race2_page .obstacle {
+    position: absolute;
+
+
+}
+#race2_page #collision{
+    width: 152px;
+    height: 152px;
+    display:block;
+    overflow:hidden;
+    position: relative;
+    display: none;
+}
+#race2_page .obstacles .obstacle:nth-of-type(1),#race2_page .obstacles .obstacle:nth-of-type(11) {
+    background-image: url(images/level3/obstacle1.png);
+    top: 189px;
+    width: 181px;
+    height: 214px;
+    left: -204px;
+}
+#race2_page .obstacles .obstacle:nth-of-type(2),#race2_page .obstacles .obstacle:nth-of-type(8) {
+    background-image: url(images/level3/obstacle2.png);
+    top: 361px;
+    width: 447px;
+    height: 224px;
+    left: -467px;
+}
+#race2_page .obstacles .obstacle:nth-of-type(3),#race2_page .obstacles .obstacle:nth-of-type(12) {
+    background-image: url(images/level3/obstacle3.png);
+    top: 37px;
+    width: 181px;
+    height: 199px;
+    left: -467px;
+}
+#race2_page .obstacles .obstacle:nth-of-type(4),#race2_page .obstacles .obstacle:nth-of-type(9) {
+    background-image: url(images/level3/obstacle4.png);
+    top: 234px;
+    width: 226px;
+    height: 142px;
+    left: -467px;
+}
+#race2_page .obstacles .obstacle:nth-of-type(5),#race2_page .obstacles .obstacle:nth-of-type(13) {
+    background-image: url(images/level3/obstacle5.png);
+    top: 364px;
+    width: 323px;
+    height: 192px;
+    left: -367px;
+}
+#race2_page .obstacles .obstacle:nth-of-type(6),#race2_page .obstacles .obstacle:nth-of-type(14) {
+    background-image: url(images/level3/obstacle6.png);
+    top: 386px;
+    width: 126px;
+    height: 179px;
+    left: -200px;
+}
+#race2_page .obstacles .obstacle:nth-of-type(7),#race2_page .obstacles .obstacle:nth-of-type(10) {
+    background-image: url(images/level3/obstacle7.png);
+    top: 241px;
+    width: 299px;
+    height: 66px;
+    left: -300px;
+}
+
+
+
+/* race 3 css */
+#race3_page .car {
+    position: absolute;
+    width: 326px;
+    height: 182px;
+    /* background: blue; */
+    top: 246px;
+    right: 27px;
+    background: url(images/level1/playerCar.png) no-repeat center;
+    background-size: 100%;
+    z-index: 4;
+
+}
+
+#race3_page .obstacle {
+    position: absolute;
+
+
+}
+#race3_page .obstacles .obstacle:nth-of-type(1) {
+    background-image: url(images/level1/road_obstacle5.png);
+    top: 271px;
+    width: 59px;
+    height: 127px;
+    left: -104px;
+}
+#race3_page .obstacles .obstacle:nth-of-type(2) {
+    background-image: url(images/level1/road_obstacle3.png);
+    top: 155px;
+    width: 249px;
+    height: 142px;
+    left: -300px;
+}
+#race3_page .obstacles .obstacle:nth-of-type(3) {
+    background-image: url(images/level1/road_obstacle6.png);
+    top: 371px;
+    width: 250px;
+    height: 147px;
+    left: -300px;
+}
+#race3_page .obstacles .obstacle:nth-of-type(4) {
+    background-image: url(images/level1/road_obstacle4.png);
+    top: 371px;
+    width: 250px;
+    height: 147px;
+    left: -300px;
+}
+#race3_page .obstacles .obstacle:nth-of-type(5) {
+    background-image: url(images/level1/road_obstacle7.png);
+    top: 282px;
+    width: 166px;
+    height: 104px;
+    left: -200px;
+}
+#race3_page .obstacles .obstacle:nth-of-type(6) {
+    background-image: url(images/level1/road_obstacle7.png);
+    top: 173px;
+    width: 166px;
+    height: 104px;
+    left: -200px;
+}
+#race3_page .obstacles .obstacle:nth-of-type(7) {
+    background-image: url(images/level1/road_obstacle1.png);
+    top: 390px;
+    width: 141px;
+    height: 111px;
+    left: -200px;
+}
+#race3_page .obstacles .obstacle:nth-of-type(8) {
+    background-image: url(images/level1/road_obstacle1.png);
+    top: 283px;
+    width: 141px;
+    height: 111px;
+    left: -200px;
+}
+#race3_page .obstacles .obstacle:nth-of-type(13) {
+    background-image: url(images/level1/road_obstacle1.png);
+    top: 278px;
+    width: 141px;
+    height: 111px;
+    left: -200px;
+}
+#race3_page .obstacles .obstacle:nth-of-type(9) {
+    background-image: url(images/level1/road_obstacle6.png);
+    top: 371px;
+    width: 250px;
+    height: 147px;
+    left: -300px;
+}
+#race3_page .obstacles .obstacle:nth-of-type(10) {
+    background-image: url(images/level1/road_obstacle3.png);
+    top: 155px;
+    width: 249px;
+    height: 142px;
+    left: -300px;
+}
+#race3_page .obstacles .obstacle:nth-of-type(11) {
+    background-image: url(images/level1/road_obstacle7.png);
+    top: 282px;
+    width: 166px;
+    height: 104px;
+    left: -200px;
+}
+#race3_page .obstacles .obstacle:nth-of-type(12) {
+    background-image: url(images/level1/road_obstacle7.png);
+    top: 173px;
+    width: 166px;
+    height: 104px;
+    left: -200px;
+}
+
+#race3_page #collision{
+    width: 152px;
+    height: 152px;
+    display:block;
+    overflow:hidden;
+    position: relative;
+    display: none;
+}
+
+
+/*  race4 css  */
+#race4_page .plane {
+	position: absolute;
+	width: 179px;
+	height: 46px;
+	/* background: blue; */
+	top: 167px;
+	right: 27px;
+	background: url(images/level2/playerAirplane.png) no-repeat left;
+	/* background-size: 100%; */
+	z-index: 4;
+        -webkit-animation: play .8s steps(2) infinite;
+       -moz-animation: play .8s steps(2) infinite;
+        -ms-animation: play .8s steps(2) infinite;
+         -o-animation: play .8s steps(2) infinite;
+            animation: play .8s steps(2) infinite;
+        animation-play-state: paused;
+}
+
+@-webkit-keyframes play {
+   from { background-position:    0px; }
+     to { background-position: -360px; }
+}
+
+@-moz-keyframes play {
+   from { background-position:    0px; }
+     to { background-position: -360px; }
+}
+
+@-ms-keyframes play {
+   from { background-position:    0px; }
+     to { background-position: -360px; }
+}
+
+@-o-keyframes play {
+   from { background-position:    0px; }
+     to { background-position: -360px; }
+}
+
+@keyframes play {
+   from { background-position:    0px; }
+     to { background-position: -360px; }
+}
+#race4_page .obstacle {
+    position: absolute;
+
+
+}
+#race4_page #collision{
+    width: 152px;
+    height: 152px;
+    display:block;
+    overflow:hidden;
+    position: relative;
+    display: none;
+}
+#race4_page .obstacles .obstacle:nth-of-type(1) {
+    background-image: url(images/level2/obstacle3.png);
+    top: 159px;
+    width: 210px;
+    height: 95px;
+    left: -204px;
+}
+#race4_page .obstacles .obstacle:nth-of-type(2) {
+    background-image: url(images/level2/obstacle2.png);
+    top: 41px;
+    width: 82px;
+    height: 90px;
+    left: -200px;
+}
+#race4_page .obstacles .obstacle:nth-of-type(3) {
+    background-image: url(images/level2/obstacle3.png);
+    top: 267px;
+    width: 210px;
+    height: 95px;
+    left: -204px;
+}
+#race4_page .obstacles .obstacle:nth-of-type(4) {
+    background-image: url(images/level2/obstacle1.png);
+    top: 60px;
+    width: 83px;
+    height: 64px;
+    left: -100px;
+}
+#race4_page .obstacles .obstacle:nth-of-type(5) {
+    background-image: url(images/level2/obstacle1.png);
+    top: 60px;
+    width: 83px;
+    height: 64px;
+    left: -100px;
+}
+#race4_page .obstacles .obstacle:nth-of-type(6) {
+    background-image: url(images/level2/obstacle2.png);
+    top: 156px;
+    width: 82px;
+    height: 90px;
+    left: -100px;
+}
+#race4_page .obstacles .obstacle:nth-of-type(7) {
+    background-image: url(images/level2/obstacle3.png);
+    top: 276px;
+    width: 210px;
+    height: 95px;
+    left: -204px;
+}
+#race4_page .obstacles .obstacle:nth-of-type(8) {
+    background-image: url(images/level2/obstacle4.png);
+    top: 329px;
+    width: 70px;
+    height: 255px;
+    left: -100px;
+}
+#race4_page .obstacles .obstacle:nth-of-type(9) {
+    background-image: url(images/level2/obstacle5.png);
+    top: 179px;
+    width: 164px;
+    height: 405px;
+    left: -200px;
+}
+#race4_page .obstacles .obstacle:nth-of-type(10) {
+    background-image: url(images/level2/obstacle6.png);
+    top: 294px;
+    width: 57px;
+    height: 290px;
+    left: -200px;
+}
+#race4_page .obstacles .obstacle:nth-of-type(11) {
+    background-image: url(images/level2/obstacle6.png);
+    top: 294px;
+    width: 57px;
+    height: 290px;
+    left: -200px;
+}
+#race4_page .obstacles .obstacle:nth-of-type(12) {
+    background-image: url(images/level2/obstacle2.png);
+    top: 41px;
+    width: 82px;
+    height: 90px;
+    left: -200px;
+}
+#race4_page .obstacles .obstacle:nth-of-type(13) {
+    background-image: url(images/level2/obstacle7.png);
+    top: 257px;
+    width: 113px;
+    height: 327px;
+    left: -200px;
+}
+#race4_page .obstacles .obstacle:nth-of-type(14) {
+    background-image: url(images/level2/obstacle1.png);
+    top: 60px;
+    width: 83px;
+    height: 64px;
+    left: -100px;
+}
+#race4_page .obstacles .obstacle:nth-of-type(15) {
+    background-image: url(images/level2/obstacle5.png);
+    top: 179px;
+    width: 164px;
+    height: 405px;
+    left: -200px;
+}
+#race4_page .obstacles .obstacle:nth-of-type(16) {
+    background-image: url(images/level2/obstacle3.png);
+    top: 159px;
+    width: 210px;
+    height: 95px;
+    left: -204px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*  mission1 css  */
+#mission1_page .animation {
+    position: absolute;
+    top: 0;
+    background: rgb(0,26,61);
+}
+
+#mission1_page
+{
+    width: 1014px;
+    height: 650px;
+}
+
+/*  mission2 css  */
+#mission2_page .animation {
+    position: absolute;
+    top: 0;
+    background: rgb(0,26,61);
+}
+
+#mission2_page
+{
+    width: 1014px;
+    height: 650px;
+}
+/*  mission3 css  */
+#mission3_page .animation {
+    position: absolute;
+    top: 0;
+    background: rgb(0,26,61);
+}
+
+#mission3_page
+{
+    width: 1014px;
+    height: 650px;
+}
+/*  mission4 css  */
+#mission4_page .animation {
+    position: absolute;
+    top: 0;
+    background: rgb(0,26,61);
+}
+
+#mission4_page
+{
+    width: 1014px;
+    height: 650px;
+}
+/* progress */
+#progress_page #btn_continue {
+	position: absolute;
+	width: 340px;
+	height: 64px;
+	background: url(images/scr_Transition_01.png);
+	z-index: 1;
+	bottom: 0;
+	border: 0;
+	right: 50px;
+        opacity: 0;
+        cursor: pointer;
+}
+#progress_page #btn_continue.level4
+{
+    background: url(images/scr_Transition_02.png);
+}
+#score_page{
+    width: 1014px;
+    height: 650px;
+}
+
+#score_page .main-bg{
+    height: 100%;
+    width: 100%;
+    background: url(images/score/scr_missionAccomplished_04.png);
+}
+
+#score_page .wrapper {
+    width: 790px;
+    margin: auto;
+    position: relative;
+    top: 140px;
+}
+
+#score_page .header-text {
+    font-family: RusSq;
+    font-size: 45px;
+    text-transform: uppercase;
+    text-align: right;
+}
+
+#score_page .icon{
+    width: 243px;
+	height: 273px;
+	position: relative;
+	top: 14px;
+	left: 52px;
+}
+
+#score_page .icon.icon-1{
+    background: url(images/score/scr_missionAccomplished_03.png);
+}
+
+#score_page .icon.icon-2{
+    background: url(images/score/scr_missionAccomplished_02.png);
+}
+
+#score_page .icon.icon-3{
+    background: url(images/score/scr_missionAccomplished_01.png);
+}
+
+#score_page .score-cont{
+    background: url(images/score/scr_missionAccomplished_06.png);
+    width: 311px;
+    height: 81px;
+    margin: 15px auto;
+}
+
+#score_page .score-text {
+	font-size: 40px;
+	text-align: center;
+	width: 150px;
+	position: relative;
+	left: 140px;
+	top: 20px;
+	font-weight: 900;
+	color: #fff;
+	font-family: OratorStd;
+	height: 54px;
+	padding: 10px 0;
+}
+
+#score_page .certificate-cont{
+    background: url(images/score/scr_missionAccomplished_05.png);
+	width: 246px;
+	height: 79px;
+    margin: 30px auto;
+    cursor: pointer;
+}
+
+#score_page .left-panel{
+    width: 40%;
+    float: left;
+}
+
+#score_page .right-panel{
+    width: 60%;
+    float: left;
+    padding-top: 35px;
+}
+
+#score_page .comments {
+    width: 310px;
+    margin: auto;
+    text-align: center;
+    font-size: 22px;
+}
+#score_page .certificate-bg
+{
+	width: 1014px;
+    height: 650px;
+   /*  background: url(images/score/scr_Certificate_01.png); */
+	position: absolute;
+	top: 0;
+	 
+}
+
+#score_page .btn_retry
+{
+    width: 220px;
+    height: 58px;
+    background: url(images/btn_REPLAY_up.png);
+    border: 0;
+    padding: 0;
+    margin: auto;
+    margin-top: auto;
+    display: block;
+    margin-top: 68px;
+    /*    transform: scale(0.9);*/
+    cursor: pointer;
+}
+
+#score_page .username-txt {
+
+    position: absolute;
+top: 335px;
+color: #136B8C;
+left: 163px;
+width: 450px;
+font-size: 40px;
+font-style: italic;
+
+}
+#score_page .date-txt {
+
+    position: absolute;
+	top: 480px;
+	color: #000000;
+	left: 164px;
+	width: 139px;
+	text-align: center;
+	font-size: 16px;
+
+}
+#score_page .certificte-close
+{
+	width: 33px;
+    height: 45px;
+    background: url(images/score/btn_X.png);
+	position: absolute;
+	top: 20px;
+	left:20px;
+	 display:none; 
+	cursor:pointer;
+}
+#score_page .certificte-print
+{
+	width: 120px;
+    height: 59px;
+    background: url(images/score/btn_PRINT_up.png);
+	position: absolute;
+	bottom: 0;
+	right:20px;
+	 display:none; 
+	cursor:pointer;
+}
+
+#score_page .certi-container{
+	width: 1014px;
+    height: 650px;
+    
+	position: absolute;
+	top: 0;
+	 display:none; 
+}
+
+#printdiv{
+ 
+   -ms-transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+	 -moz-transform: rotate(90deg); 
+    transform: rotate(90deg); 
+	padding-top:90px; 
+}
+
+#printdiv .certificate-bg
+{
+	width: 1014px;
+    height: 650px;
+	
+   /*  background: url(images/score/scr_Certificate_01.png); */
+	position: absolute;
+	top: 0;
+	
+	
+}
+
+#printdiv .username-txt {
+
+    position: absolute;
+top: 425px;
+color: #136B8C;
+left: 163px;
+width: 450px;
+font-size: 40px;
+font-style: italic;
+
+}
+#printdiv .date-txt {
+
+    position: absolute;
+	top: 570px;
+	color: #000000;
+	left: 164px;
+	width: 139px;
+	text-align: center;
+	font-size: 16px;
+
+}

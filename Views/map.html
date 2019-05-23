@@ -1,0 +1,26 @@
+<div class="content" id="{{getCurrentPage().id}}_page">
+
+    <div class="animation">
+        <animate src="animations/map.js" id="map" contid="map" width="1014" height="650" autoplay="false" />
+    </div>
+    <div ng-repeat="data in levels" ng-class="{'active level{{$index + 1}} levels': data.status == 1 || data.status == 2,'level{{$index + 1}} levels' : data.status == 0}">
+
+    </div>
+
+
+    <div class="modal" tabindex="-1" role="dialog" id="briefModal" data-backdrop="false">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content modallevel{{currentLevel}}">
+                
+
+                <div class="modal-body" >
+                    <div class="right"></div>
+                    <div class="left" ng-bind-html="levels[currentLevel- 1]['brief']"></div>
+                    <button id="btn_continue" ng-click="onBtnClick()"></button>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+</div>
+

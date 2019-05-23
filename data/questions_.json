@@ -1,0 +1,433 @@
+{
+    "1_1": {
+        "question": "You have recently met Mr. Lee, who is single and has retired parents as dependents. Which of the following priority do you think are important to consider in Mr. Lee’s current life stage?  ",
+        "options": [
+            "Education planning",
+            "Legacy planning",
+            "Retirement planning"
+        ],
+        "answer": 2,
+        "poll": [5, 5, 90],
+        "topic_name": "MLU: Overview"
+    },
+    "1_2": {
+        "question": "Mrs. Chong is a 60-year-old bank employee who has approached you for suggestions on a suitable insurance plan for herself. On enquiring about her details, you come to know that she has recently retired from service. She has a daughter and son. Both are married and are staying independently. Which one of the following are common priorities considering Mrs. Chong’s current life stage? ",
+        "options": [
+            "Health maintenance planning ",
+            "Education planning",
+            "Retirement planning"
+        ],
+        "answer": 0,
+        "poll": [80, 18, 2],
+        "topic_name": "MLU: Overview"
+    },
+    "1_3": {
+        "question": "Which of the following staff members could be a source to generating leads?<ul><li>a)Teller </li><li>b)Loan Officer</li><li>c)Customer Service Officer</li><li>d)Bank Manager </li><li>e)Personal Banker </li> </ul>",
+        "options": [
+            "a, b, c, d and e ",
+            "a, b and c",
+            "c, d and e",
+            "b, d and d"
+        ],
+        "answer": 0,
+        "poll": [80, 5, 10, 5],
+        "topic_name": "MLU: Qualify "
+    },
+    "1_4": {
+        "question": "Here is a conversation between Ronny, a low counter staff member and Mr. Patel, a walk-in client. Identify the type of tagline used by Ronny.<p><b>Ronny:</b> Hello Mr. Patel. Do you know how much an average person needs to protect his or her family?<br><b>Mr. Patel:</b> I really can’t guess.<br><b>Ronny:</b> Like you, many of our clients didn’t know the specific answer to this question when we asked them this question. We have a calculator that will help you find out the amount to ensure you are better prepared.<br><b>Mr. Patel:</b> Okay.<br><b>Ronny:</b> May I ask our RM to show you the calculator?<br><b>Mr. Patel:</b> Sure!</p> ",
+        "options": [
+            "Campaign Promotion ",
+            "Protection ",
+            "Compliment ",
+            "Interest Arouser"
+        ],
+        "answer": 1,
+        "poll": [8, 82, 10, 2],
+        "topic_name": "MLU: Qualify "
+    },
+    "1_5": {
+        "question": "What tool/model is used during the Qualify step of the Sales Funnel? ",
+        "options": [
+            "Client Screening Tool",
+            "Goal Development Model",
+            "Needs Analysis Tool ",
+            "Commitment Development Model "
+        ],
+        "answer": 0,
+        "poll": [70, 10, 10, 10],
+        "topic_name": "MLU: Qualify"
+    },
+    "1_6": {
+        "question": "What is the outcome of Qualify step of the Sales Funnel? ",
+        "options": [
+            "Convert wants into a buy ",
+            "Identify clients with potential needs",
+            "Convert needs into wants",
+            "Secure appointment"
+        ],
+        "answer": 1,
+        "poll": [4, 86, 5, 5],
+        "topic_name": "MLU: Qualify"
+    },
+    "2_1": {
+        "question": "After having identified clients with potential needs using client screening tools, Zara, a Relationship Manager is planning to connect with them. ",
+        "options": [
+            "Client Screening Tool",
+            "Goal Development Model",
+            "Attract, Benefit, Confirm ",
+            "Needs Analysis Tool"
+        ],
+        "answer": 2,
+        "poll": [3, 2, 90, 5],
+        "topic_name": "MLU: Connect"
+    },
+    "2_2": {
+        "question": "You are calling Mr. Chen, a new bank client, age 45, for the first time. Which would be the best statement to Attract him? ",
+        "options": [
+            "I believe you would agree with me that the recent market volatility would affect the amount of assets you have for yourself for your retirement.",
+            "I want 20-30 minutes to discuss the insurance policies that we have on offer; most of my clients have found at least one of them beneficial to meet their financial goals. ",
+            "I believe it's important that the education fund for your children is protected from market fluctuations to ensure your children can enjoy their education regardless. "
+        ],
+        "answer": 0,
+        "poll": [80, 10, 10],
+        "topic_name": "MLU: Connect"
+    },
+    "2_3": {
+        "question": "You are calling Mr. Chen, a new bank client, age 45, for the first time. What should you say to him to highlight the benefits of meeting up with you? ",
+        "options": [
+            "I will only take 20-30 minutes to discuss how the recent market volatility would affect the amount of assets you have for your retirement.",
+            "I will only take 20-30 minutes to discuss the importance of an education fund for your children to take care of their higher education.",
+            "I will only take 20-30 minutes to discuss the service review in detail, most of my clients have found it to be beneficial to them as it helps them achieve their financial goals."
+        ],
+        "answer": 0,
+        "poll": [85, 7, 8],
+        "topic_name": "MLU: Connect"
+    },
+    "2_4": {
+        "question": "You are calling Mr. Chen, a new to bank client, age 45, for the first time. After attracting him and stating the benefits of the upcoming review, what should you say to confirm the meeting? ",
+        "options": [
+            "I have introduced some financial tools to help my clients safeguard their retirement fund against inflation and I am sure you would also benefit from it. Shall we spend around 20-30 minutes to discuss it some more? How does Tuesday 12pm or Friday 4.30pm work for you? And can I suggest we meet at the bank?",
+            "I want to meet you to understand if you have any requirement related to your children’s education. I have many illustrations to showcase. Can we meet either on Tuesday 12pm or Friday 4.30pm at a convenient place?",
+            "I want to meet you to introduce some financial tools that can help my clients safeguard their retirement fund against inflation. You will be able to see the benefits for yourself. Shall we meet tomorrow at a convenient time?  "
+        ],
+        "answer": 0,
+        "poll": [88, 0, 12],
+        "topic_name": "MLU: Connect"
+    },
+    "2_5": {
+        "question": "Which of the following statements is best to use in the Attract step of the 6-Step Connect Model?  ",
+        "options": [
+            "We have just launched a new product and immediately I thought of you. This product would be perfect for addressing your needs. ",
+            "I think you can suggest how you’d like to see your investment risk minimized, especially in the current volatile market.",
+            "I think you would have noticed how the recent market volatility might have affected your portfolio and assets. "
+        ],
+        "answer": 2,
+        "poll": [12, 8, 88],
+        "topic_name": "MLU: Connect"
+    },
+    "2_6": {
+        "question": "Identify the best statements to use in the Benefit step of the 6-Step Connect Model. ",
+        "options": [
+            "I have several risk diversification strategies that could help minimize your investment risks and secure your portfolio. ",
+            "I'm calling you as I would like to understand your savings and investment objectives in greater detail.  ",
+            "I can help you align your current financial portfolio with your financial goals."
+        ],
+        "answer": 0,
+        "poll": [80, 10, 10],
+        "topic_name": "MLU: Connect"
+    },
+    "2_7": {
+        "question": "Which of these are the best statements to use for the Confirm step of the 6-Step Connecting Model? ",
+        "options": [
+            "Our bank has launched a new product that will help you gain a higher interest than what you are getting right now. Shall we meet at the bank on Friday at 3.30pm to discuss it? ",
+            "It only takes about 30 minutes to discuss the comprehensive service review in detail. Can we meet either Monday 12pm or Friday 3.30pm? And can I suggest we meet at the bank?",
+            "Proper financial planning ensures your peace of mind because regardless of how the market performs your family is secure. When can we meet to discuss this? "
+
+        ],
+        "answer": 1,
+        "poll": [5, 86, 9],
+        "topic_name": "MLU: Connect"
+    },
+    "2_8": {
+        "question": "You are with a potential client. During your interaction, you find out that the client’s family is predisposed to heart ailments. Therefore, you present statistics related to ischemic heart disease and stroke to him to highlight the importance of being prepared in case of critical illness. Which side of the client’s brain are you trying to influence in the process?   ",
+        "options": [
+            "Left",
+            "Right",
+            "None"
+
+        ],
+        "answer": 0,
+        "poll": [86, 5, 9],
+        "topic_name": "MLU: Overview"
+    },
+    "2_9": {
+        "question": "You are in conversation with a potential client who is the sole bread earner in his family. To make him realize the criticality of his family losing him due to unforeseen circumstances you say, \"In case of a loss of income due to critical illness, premature death, or disability, what do you think would be the financial and emotional impact on your family?\" Which side of the client’s brain are you influencing in the process?  ",
+        "options": [
+            "Left",
+            "Right",
+            "None"
+
+        ],
+        "answer": 1,
+        "poll": [6, 85, 9],
+        "topic_name": "MLU: Overview"
+    },
+    "4_1":
+            {
+                "question": "<p>Here’s an ongoing conversation between an RM and a client. You have to identify the step of the Discover stage that the RM is currently in with the client.</p><u>Conversation</u><br/><p>RM: Hello Mrs. Wu. As per the discussion that we had on the phone 2 days ago, the purpose of our meeting today is to get to know each other better and discuss how you can protect and grow your wealth.</p> <p>RM: This discussion will take approximately 20 minutes.</p> <p>Client: Alright!</p> <p>RM: Since this is the first time we are meeting, I would like to share with you about my current role.&nbsp; I manage financial portfolios of my clients including their banking, wealth and protection needs. I keep in touch with my clients regularly as I plan to do with you too. How about yourself? Could you&nbsp; tell me about yourself and your family?</p> <p>Client: Well, my husband, Bruce and I have been married for 10 years now. Both of us are currently working. We have a son, who is in the fourth grade now.</p> <p>RM: That is wonderful, Mrs. Wu. Thank you for sharing all that with me Mrs. Wu.</p> <p>RM: As we construct your portfolio, we look at various types of risks, including market-related risks or personal risks, that might impact your investment. There are three main areas we look at: Wealth Protection, Wealth Accummulation, and Wealth Distribution.</p>",
+                "options": [
+                    "Position Service",
+                    "Uncover Financial Needs",
+                    "Summarize Discussion",
+                    "Qualify Needs"
+                ],
+                "answer": 0,
+                "poll": [82, 4, 3, 11],
+                "topic_name": "MLU: Discover"
+            },
+    "4_2":
+            {
+                "question": "Lim Lee, a RM has set up a meeting with Mr. Andrews, a high net worth client. What sequence should Lim Lee follow to qualify Mr. Andrew’s needs as per the Goal Development Model (GDM)? <ol> <li>Check Mr. Andrew&rsquo;s <strong>Current Plans</strong> so that you know of shortfalls, if any.</li> <li>Ask <strong>Why</strong> Andrew&rsquo;s priority is <strong>Important</strong>.</li> <li>Address Mr. Foo&rsquo;s <strong>Concerns</strong>.</li> <li>Ascertain <strong>How Much </strong>is the financial value of Mr. Andres&rsquo;s need and by <strong>When</strong> the need has to be achieved.</li> <li>Understand Mr. Andrew&rsquo;s<strong> Potential Objections</strong> (related to budget or spouse's opinion) during closing.</li> <li>Entice Mr. Andrew&rsquo;s to schedule a follow up to share an <strong>Affordable and Reasonable Solution</strong>.</li> <li><strong>Summarize</strong> steps 1 to 5. Re-emphasize Mr. Andrew&rsquo;s needs using his exact words as much as possible.</li> </ol>",
+                "options": [
+                    "1 -> 2 - > 3 -> 4 -> 5 -> 6 -> 7",
+                    "7 -> 2 - > 1 -> 4 -> 5 -> 6 -> ",
+                    "2 -> 3 -> 4 -> 1 -> 5 -> 7 -> 6",
+                    "5 -> 3 - > 2-> 4 -> 1 -> 6 -> 7 "
+                ],
+                "answer": 2,
+                "poll": [2, 5, 93, 0],
+                "topic_name": "MLU: Discover"
+            },
+    "4_3":
+            {
+                "question": "<p>A Relationship Manager (RM) is in an ongoing conversation with Mr. Alex, who is a recent retiree. Mr. Alex is a very enthusiastic client and loves to travel. Identify the step of the Discover stage that the RM is currently in with Mr. Alex. </p> <p>RM: Mr. Alex, let&rsquo;s start with retirement planning. What do you plan to do after retirement?</p> <p>Mr. Alex: I am thinking of touring in the US with my friends. I love travelling.</p> <p>RM: Which places in the US do you plan to visit?</p> <p>Mr. Alex: I would like to visit New York, Washington DC, and Chicago. I need to work hard for a few more years and save till I have enough.</p> <p>RM: Wonderful, Mr. Alex. On a scale of 1 to 10, 1 being least important and 10 being most important, what is your priority of traveling to the US after retirement?</p>Mr. Alex: I would say 9 as it is quite important to me right now.",
+                "options": [
+                    "Position Service",
+                    "Uncover Financial Needs",
+                    "Summarize Discussion",
+                    "Qualify Needs"
+                ],
+                "answer": 1,
+                "poll": [0, 95, 0, 5],
+                "topic_name": "MLU: Discover"
+            },
+    "4_4":
+            {
+                "question": "<p>Which of the following leakage points have to be plugged for estate preservation? </p> <ol> <li>Taxes</li> <li>Legal expense</li> <li>Debt</li> <li>Future Needs</li> </ol>",
+                "options": [
+                    "a,b,c",
+                    "b,c,d",
+                    "c,d,a"
+                ],
+                "answer": 0,
+                "poll": [88, 2, 10],
+                "topic_name": "MLU: Discover"
+            },
+    "4_5":
+            {
+                "question": "<p>Tony, an RM is in an ongoing conversation with Mr. Zhin, a 56-year-old who wants to plan for retirement. You have to identify the step of the Gold Development Model (GDM) that Tony seems to have missed. </p> <p><span style=\"text-decoration: underline;\">Conversation</span></p> <p>RM: Thank you for your time, Mr. Zhin. When we met earlier, you said you would like to focus on your retirement goal.</p> <p>Mr. Zhin: Yes, that is correct.</p> <p>RM: Why is this goal important to you? What do you intend to do?</p> <p>Mr. Zhin: I want to maintain my current lifestyle for myself and my family.</p> <p>RM: What concerns do you have about maintaining your current lifestyle? Is there any relation to your family?</p> <p>Mr. Zhin: I have two sons who would be still studying when I retire. I wouldn&rsquo;t want their education to be affected because of my retirement.</p> <p>RM: I see.&nbsp; When we did the needs analysis, we used your family expenses. We have factored in inflation too. We established that you would need to have at least USD 50,000 per family member.</p> <p>Mr. Zhin: Really?</p> <p>RM: Yes. To achieve this, how much do you think you would need to put aside for savings and by when?</p> <p>Mr. Zhin: Based on the plans that I already have, I think I may have to put aside USD 2,50,000 soon, may be in 2 years.</p> <p>RM: What plans do you have in place now? Do they cover this amount?</p> <p>Mr. Zhin: Based on the current plans that I currently have and the with rising costs, I think I may have a shortfall of USD 1,00,000.</p> <p>RM: Yes Mr. Zhin. Based on the calculations, you do in fact have a shortfall of USD 1,00,000.</p> <p>RM: Do you know of anything in the near future that would stop you from doing something about this now? Like budget or asking your wife for example?</p> <p>Mr. Zhin: No. Well, I usually take decisions on my own.</p> Tony: Thank you. Mr. Zhin. If I can show you a reasonable and affordable way to achieve this, would you be happy for me to explain it?",
+                "options": [
+                    "<b>Step 3:</b> Ascertaining the financial value and time frame to achieve your client’s need. ",
+                    "<b>Step 4:</b> Checking your client’s current plans so that you know of shortfalls, if any. ",
+                    "<b>Step 5:</b> Understanding your client’s potential objections (related to budget or spouse's opinion) during closing. ",
+                    "<b>Step 6:</b> Summarizing steps 1 to 5. Re-emphasize client's needs using client’s exact words as much as possible. "
+                ],
+                "answer": 3,
+                "poll": [0, 10, 10, 80],
+                "topic_name": "MLU: Discover"
+            },
+    "5_1":
+            {
+                "question": "After qualifying a client&rsquo;s needs, Roy, a Relationship Manager is moving on to quantify the needs. Which of the following tools can Roy use at this stage?",
+                "options": [
+                    "Client Screening Tool",
+                    "Needs Analysis Tool",
+                    "Goal Development Model ",
+                    "Attract, Benefit, Confirm"
+                ],
+                "answer": 1,
+                "poll": [4, 95, 0, 1],
+                "topic_name": "MLU: Analyze"
+            },
+    "5_2":
+            {
+                "question": "Identify the factor to be considered for protection coverage calculation, for a client who is 26 years old with an annual income of 65,000. ",
+                "options": [
+                    "Expected coverage period ",
+                    "Preferred retirement age ",
+                    "All existing insurance coverage "
+                ],
+                "answer": 0,
+                "poll": [92, 3, 5],
+                "topic_name": "MLU: Analyze"
+            },
+    "5_3":
+            {
+                "question": "Calculate the total sum needed to fund family income (Present Value or PV) of a potential client if the annual income to be protected in the event of unforeseen circumstances is $65,000. The expected coverage period is 21 years.",
+                "options": [
+                    "13,65,000",
+                    "13,75,000",
+                    "12,65,000 ",
+                    "12,75,000"
+                ],
+                "answer": 0,
+                "poll": [90, 8, 0, 2],
+                "topic_name": "MLU: Analyze"
+            },
+    "5_4":
+            {
+                "question": "Mr. Chong is a 40-year-old executive. His 35-year-old wife is a manager at a multinational electronic store. Someday Mr. Chong would like to take his wife on a trip around Australia. But, his immediate priority is his 4-year-old son Dave. Which factors will you include in the education coverage calculation for Mr. Chong? ",
+                "options": [
+                    "Age of child when funds are needed ",
+                    "Expected coverage period for protection ",
+                    "Mr. Chong’s desired retirement age"
+                ],
+                "answer": 0,
+                "poll": [88, 8, 4],
+                "topic_name": "MLU: Analyze"
+            },
+    "6_1":
+            {
+                "question": "<p>Here are two sales pitches. Which pitch should you use for your sales proposition?&nbsp;</p> <p><strong>Pitch 1</strong></p> <p>Hello there! &nbsp;We have a brand new model of the best-selling mobile. &nbsp;It has many special features that will benefit you like a 16-megapixel, wide-angle camera with optical image stabilization and photo geotagging. It also has a 12 megapixel FaceTime HD Camera, with improved face detection and retina flash. The FaceTime audio calling can connect to any FaceTime audio-enabled device over Wi?Fi or cellular. A fingerprint identity sensor is built into the Home button for your Touch ID.</p> <p>Wouldn&rsquo;t you like to buy such a mobile?</p> <p><strong>Pitch 2</strong></p> <p>Hello there! We have a brand new model of a best-selling mobile that is a must-have for a traveller like yourself. It has a 16-megapixel wide-angle camera that you will give you high-quality, sharper, detailed shots from a long distance.&nbsp; And you don&rsquo;t have to worry about that shaky hand while running to capture that perfect moment! &nbsp;Since you travel often, you can instantly share your photo location with photo geotagging. That way, your friends and family will always be updated on your travel escapades! &nbsp;Keep in constant touch with your loved ones using Audio Calling and FaceTime HD Camera. &nbsp;It saves you money because you can speak to anyone, anywhere in the world with clear audio and video using Wi-Fi. Finally, the highly advanced fingerprint sensor is so fast that Touch&nbsp;ID makes unlocking your iPhone easy and secured.</p> <p>Wouldn&rsquo;t you like to buy such a mobile?</p>",
+                "options": [
+                    "Pitch 1 because it focuses on the features of the product.",
+                    "Pitch 2 because it focuses on the benefits of the product features.",
+                    "Either Pitch 1 or Pitch 2 as both are equally effective.",
+                    "Neither Pitch 1 nor Pitch 2 as both are ineffective."
+                ],
+                "answer": 1,
+                "poll": [0, 95, 2, 3],
+                "topic_name": "MLU: Propose"
+            },
+    "6_2":
+            {
+                "question": "<p>Here&rsquo;s a script that a Relationship Manager (RM) has used as per the Commitment Development Model (CDM) to create an emotional attachment with a client. Do you think the RM has followed all the steps?&nbsp;</p> <p><strong>What</strong> I would like to do is focus on is your protection goal today. As per the discussion we had earlier, you shared that you are the only gainfully employed person in your family.</p> <p>When we did the needs analysis, we established that USD 80,000 yearly is needed to sustain your family&rsquo;s expenses including mortgage and bills related to basic needs. To achieve this, <strong>how </strong>much will you need to put aside for savings?</p> <p><strong>Are your current plans sufficient for this goal value? </strong>Let&rsquo;s look at them to assess your current situation.</p> <p>Based on your current plans, we have identified a <strong>shortfall</strong> of USD 1 million.</p> <p>That is not a small sum and it could be quite worrying as we never know what will happen tomorrow.</p> <p><strong>How </strong>would you feel if you can&rsquo;t close this USD 1 million shortfall and your family cannot continue their current lifestyle?</p> <p><strong>What </strong>would your family have to give up or sacrifice if they didn&rsquo;t have this USD 1 million?</p> <strong>What </strong>other problems will it cause?",
+                "options": [
+                    "Yes, the RM has followed all the CDM steps.",
+                    "No, the RM has missed the “goal description” step.",
+                    "Yes, the RM has followed the CDM steps except the “goal value” step.",
+                    "No, the RM has missed the “challenge consequences” step."
+                ],
+                "answer": 1,
+                "poll": [0, 88, 7, 5],
+                "topic_name": "MLU: Propose"
+            },
+    "7_1":
+            {
+                "question": "Which of the following statements can be used during the trial close? ",
+                "options": [
+                    "Are you comfortable with the benefits I have explained?",
+                    "Which rider would you like to attach with this plan?",
+                    "Do you really want to say ‘No’ to all these benefits?"
+                ],
+                "answer": 0,
+                "poll": [100, 0, 0],
+                "topic_name": "MLU: Close"
+            },
+    "7_2":
+            {
+                "question": "Which is the correct sequence of the steps of the Close 5X Strategy?",
+                "options": [
+                    "Disturbance Close -> Assumptive Close -> The List -> Similar Situational Close -> Don’t Say “No” To All These Benefits",
+                    "Don’t Say “No” To All These Benefits -> Assumptive Close -> The List -> Disturbance Close -> Similar Situational Close ",
+                    "Assumptive Close -> The List -> Similar Situational Close -> Disturbance Close -> Don’t Say “No” To All These Benefits",
+                    "Similar Situational Close -> The List -> Assumptive Close -> Disturbance Close -> Don’t Say “No” To All These Benefits"
+
+                ],
+                "answer": 2,
+                "poll": [5, 2, 85, 8],
+                "topic_name": "MLU: Close"
+            },
+    "8_1":
+            {
+                "question": "Ali is meeting a client, Mr. Lee to discuss a retirement plan. However, Mr. Lee says that he needs some time to think about it. What should Ali do?",
+                "options": [
+                    "Summarize the needs discussion using CDM.",
+                    "Reschedule the meeting to another suitable time so that Mr. Lee can think it over.  ",
+                    "Thank Mr. Ali and ask him to call you when he is ready to invest.   "
+
+                ],
+                "answer": 0,
+                "poll": [89, 11, 0],
+                "topic_name": "MLU: Objection Handling"
+            },
+    "8_2":
+            {
+                "question": "You are meeting Ms. Chompoo Juntasa regarding a solution to build a corpus for the financial security of her parents. As she has raised an objection regarding the price, you recommend a budget review to manage her finances. What must you do next?",
+                "options": [
+                    "Explain how cost-effective your product is and recommend it to the client.",
+                    "Compare your solution to other competitor products.",
+                    "Explain the benefits of the review which will help the client understand if the solution is aligned to her current financial needs."
+                ],
+                "answer": 2,
+                "poll": [0, 12, 80],
+                "topic_name": "MLU: Objection Handling"
+            },
+    "8_3":
+            {
+                "question": "Sonia’s aunt saves through traditional instruments like savings bonds. When Sonia calls her to pitch an insurance solution, she says she has no money to invest. How should Sonia handle this objection? ",
+                "options": [
+                    "By explaining the disadvantages of the saving bonds.",
+                    "By comparing the solution with similar solutions offered by other companies.",
+                    "By discussing the advantages of insurance solutions she is pitching.",
+                    "By using the Listen, Acknowledge, Defuse and Refocus Methodology."
+
+                ],
+                "answer": 3,
+                "poll": [10, 1, 0, 89],
+                "topic_name": "MLU: Objection Handling"
+            },
+    "8_4":
+            {
+                "question": "Christine is meeting Mr. Miyazaki regarding a critical illness rider, but he does not want to discuss any further, saying that he has heard that his neighbour had a bad claims experience with her bank. After listening to Mr. Miyazaki’s concern and acknowledging it, what should Christine say to defuse this situation? ",
+                "options": [
+                    "Explain the benefits of the rider and how it will add value to his existing plan. ",
+                    "Assure him that the bank will provide all support to process claims and recommend option. ",
+                    "Request Mr. Miyazaki for a joint meeting with his neighbor to clear these misconceptions and avoid them in the future. "
+
+                ],
+                "answer": 1,
+                "poll": [0, 93, 7],
+                "topic_name": "MLU: Objection Handling"
+            },
+    "8_5":
+            {
+                "question": "Mr. Tim Fu has already invested in a policy with your bank which will expire in some months. You received a notification for the same and approached him to pitch another investment solution. However, he has raised an “I am busy” objection. Identify the statements that hold true for the Acknowledge methodology while handling this objection. ",
+                "options": [
+                    "Mr. Fu, I appreciate you telling me that. I understand how busy your schedule is. Many of my clients are like you, busy working professionals. That is the reason why I am calling you on a Saturday.",
+                    "Do you have any other concerns Mr. Fu?",
+                    "Let’s arrange an appointment for next week Mr. Fu."
+
+                ],
+                "answer": 0,
+                "poll": [92, 5, 3],
+                "topic_name": "MLU: Objection Handling"
+            },
+    "8_6":
+            {
+                "question": "You have approached Mr. Junaid Husseini regarding a life insurance policy. He raised an objection, stating “My family has always invested in real estate and I intend to do the same”. You acknowledged the situation and defused Mr. Husseini’s concern by empathizing with his situation and offered him a financial growth plan which would merit a discussion. Identify the statements that hold true for the Refocus methodology while handling this objection. ",
+                "options": [
+                    "Let’s go through the details of the solution and proceed with the paperwork. ",
+                    "Reassure him that your clients have benefited from this plan and he too would experience it. ",
+                    "I understand your concerns about the price, but that is the best we can offer. "
+
+                ],
+                "answer": 0,
+                "poll": [90, 0, 10],
+                "topic_name": "MLU: Objection Handling"
+            },
+    "8_7":
+            {
+                "question": "Which of the following statements related to objections are true? ",
+                "options": [
+                    "Objections occur when the RM fails to follow all the steps of the sales process accurately. ",
+                    "Objections can be hidden requests.",
+                    "It is okay to directly skip the acknowledge step and defuse the client objection."
+
+                ],
+                "answer": 1,
+                "poll": [8, 82, 10],
+                "topic_name": "MLU: Objection Handling"
+            }
+
+}
